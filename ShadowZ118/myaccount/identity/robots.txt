@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /A797XX666XX.acropo
+Disallow: /INC

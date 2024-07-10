@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Mogra|Open+Sans');
+body {
+  font-family : Open Sans;
+  padding : 0;
+  margin : 0;
+  background-color : #EEEEEE;
+}
+.login-form {
+  width : 350px;
+  height : 220px;
+  position : absolute;
+  top : 50%;
+  left : 50%;
+  margin-top : -120px;
+  margin-left : -175px;
+  background-color : #005F97;
+  border-radius : 3px;
+  box-shadow : 0 0 3px 0 #004C79;
+}
+.login-form .login-box {
+  width : 80%;
+  margin-left : auto;
+  margin-right : auto;
+}
+.login-form input[type="text"] {
+  width : 98.5%;
+  height : 40px;
+  border-radius : 2px;
+  background : transparent;
+  border : 1px solid #849FBB;
+  color : #849FBB;
+  font-size : 17px;
+  font-weight : 300;
+  padding : 2px;
+  padding-left : 4px;
+  position : relative;
+  margin-top : 40px;
+}
+.login-form input[type="password"] {
+  width : 98.5%;
+  height : 40px;
+  border-radius : 2px;
+  background : transparent;
+  border : 1px solid #849FBB;
+  color : #849FBB;
+  font-size : 17px;
+  font-weight : 300;
+  padding : 2px;
+  padding-left : 4px;
+  position : relative;
+  margin-top : 20px;
+}
+.login-form button {
+  width : 98.5%;
+  height : 40px;
+  border-radius : 2px;
+  background : #004C79;
+  border : 1px solid #004C79;
+  color : #54ACD2;
+  font-size : 17px;
+  font-weight : 300;
+  padding : 2px;
+  padding-left : 4px;
+  position : relative;
+  margin-top : 20px;
+  cursor : pointer;
+}
+
+.menu {
+  width : 210px;
+  position : absolute;
+  top : 0;
+  left : 0;
+  bottom : 0;
+  background-color : #005F97;
+  border-right : 3px solid #004C79;
+}
+.menu ul {
+  margin : 0;
+  padding : 0;
+  margin-top : 20px;
+  margin-left : 20px;
+  list-style : none;
+}
+.menu ul li {
+  font-size : 17px;
+  color : #EEE;
+  margin : 0;
+  padding : 0;
+  margin-bottom : 20px;
+  font-weight : 300;
+  letter-spacing : .2px;
+  cursor : pointer;
+  transition-duration : 0.5s;
+  user-select : none;
+  -webkit-user-select : none;
+}
+.menu ul li:hover {
+  color : #292929;
+  transition-duration : 0.5s;
+}
+.menu .active {
+  color : #292929;
+}
+.body {
+  position : absolute;
+  left : 210px;
+  top : 0;
+}
+.body .logo {
+  font-size : 50px;
+  color : #BB4D3E;
+  font-family : Mogra;
+  position : absolute;
+  left : 50%;
+  top : 50%;
+  margin-top : 220px;
+}
+.body .info-line {
+  margin-top : 20px;
+  margin-left : 20px;
+}
+.body .info-line .info-box {
+  width : 200px;
+  height : 100px;
+  border-radius : 5px;
+  display : inline-block;
+  margin-left : 20px;
+  padding : 8px;
+  vertical-align : top;
+}
+.body .info-line .info-box-upgraded {
+  width : 400px;
+  height : 200px;
+  border-radius : 5px;
+  display : inline-block;
+  margin-left : 20px;
+  padding : 10px;
+  vertical-align : top;
+  margin-bottom : 15px;
+}
+.body .info-line .account {
+  background : linear-gradient(to bottom right, #E7E7E7, #D2D7D3);
+  height : 80px;
+  width : 300px;
+  overflow : hidden;
+}
+.body .info-line .credit {
+  background : linear-gradient(to bottom right, #E7E7E7, #D2D7D3);
+  height : 200px;
+  width : 370px;
+  overflow : hidden;
+}
+.body .info-line .account .log {
+  width : 40px;
+  height : 40px;
+  background-image : url('../icons/apple.png');
+  background-size : 40px 40px;
+  position : relative;
+  top : -55px;
+  left : 85%;
+  background-repeat : no-repeat;
+}
+.body .info-line .credit .visa {
+  width : 35px;
+  height : 35px;
+  background-image : url('../creditcard/visa.png');
+  background-size : 35px 35px;
+  position : relative;
+  top : -250px;
+  left : 88%;
+  background-repeat : no-repeat;
+}
+.body .info-line .credit .mastercard {
+  width : 35px;
+  height : 35px;
+  background-image : url('../creditcard/mastercard.png');
+  background-size : 35px 35px;
+  position : relative;
+  top : -250px;
+  left : 88%;
+  background-repeat : no-repeat;
+}
+.body .info-line .credit .discover {
+  width : 35px;
+  height : 35px;
+  background-image : url('../creditcard/discover.png');
+  background-size : 35px 35px;
+  position : relative;
+  top : -250px;
+  left : 88%;
+  background-repeat : no-repeat;
+}
+.body .info-line .credit .amex {
+  width : 35px;
+  height : 35px;
+  background-image : url('../creditcard/amex.png');
+  background-size : 35px 35px;
+  position : relative;
+  top : -250px;
+  left : 88%;
+  background-repeat : no-repeat;
+}
+.body .info-line .credit h1 {
+  color : #004C79;
+}
+.body .info-line .account h1,h2 {
+  color : #005F97;
+  font-weight : 500;
+}
+.body .info-line .info-box-upgraded h1, h2, h3 {
+  font-size : 15px;
+}
+.body .info-line .info-box-upgraded h3 {
+  position : relative;
+  top : -5px;
+  color : #004C79;
+  font-weight : 300;
+  font-size : 16px;
+}
+.body .info-line .info-box-upgraded h4 {
+  position : relative;
+  top : -40px;
+  color : #004C79;
+  font-weight : 300;
+  font-size : 15px;
+  display : inline-block;
+}
+.body .info-line .info-box-upgraded h5 {
+  position : relative;
+  top : -40px;
+  color : #004C79;
+  font-weight : 300;
+  font-size : 15px;
+  display : inline-block;
+  margin-left : 30px;
+}
+.body .info-line .info-box h1 {
+  font-size : 25px;
+  font-weight : 300;
+  margin : 0;
+  padding : 0;
+  margin-left : 5px;
+  margin-top : 5px;
+}
+.body .info-line .info-box h2 {
+  font-size : 25px;
+  font-weight : 300;
+  margin-top : 20px;
+  margin-left : 5px;
+  padding : 0;
+}
+
+.blue {
+  background-color : #005F97;
+}
+.blue h2 {
+  color : #EEE;;
+}
+.blue h1 {
+  color : #EEE;
+}
+
+.green {
+  background-color : #16A086;
+}
+.green h1 {
+  color : #EEE;
+}
+.green h2 {
+  color : #EEE;
+}
+
+.purple {
+  background-color : #8657DB;
+}
+.purple h1 {
+  color : #EEE;
+}
+.purple h2 {
+  color : #EEE;
+}
+.body input[type="text"], input[type="password"] {
+  width : 250px;
+  height : 25px;
+  padding : 5px;
+  color : #004C79;
+  border : 1px solid #004C79;
+  border-radius : 3px;
+  font-size : 17px;
+  font-weight : 300;
+  background : transparent;
+}
+.body select {
+  width : 262px;
+  height : 36px;
+  padding : 5px;
+  color : #004C79;
+  border : 1px solid #004C79;
+  border-radius : 3px;
+  font-size : 17px;
+  font-weight : 300;
+  background : transparent;
+  margin-top : 10px;
+}
+.body button {
+  width : 262px;
+  height : 36px;
+  padding : 5px;
+  color : #EEE;
+  border : 1px solid #004C79;
+  border-radius : 3px;
+  font-size : 17px;
+  font-weight : 300;
+  background : #004C79;
+  margin-top : 10px;
+  cursor : pointer;
+}
+a {
+  color : inherit;
+  text-decoration : none;
+}
+/* Animation Side */
+.drop {
+  animation : drop 0.5s ease-out forwards;
+}
+
+@keyframes drop {
+  from {
+    margin-top : -120px;
+    opacity : 0;
+  }
+  to {
+    margin-top : -110px;
+    opacity : 1;
+  }
+}

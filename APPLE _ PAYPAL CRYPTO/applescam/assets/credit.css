@@ -1,0 +1,36 @@
+.creditcard {
+  background-image : url('../img/creditcard/creditcard.png');
+  background-size : 33px 33px;
+  background-position : 98% 1.5px;
+  background-repeat : no-repeat;
+}
+.visa {
+  background-image : url('../img/creditcard/visa.png');
+  background-size : 33px 33px;
+  background-position : 98% 1.5px;
+  background-repeat : no-repeat;
+}
+.mastercard {
+  background-image : url('../img/creditcard/mastercard.png');
+  background-size : 33px 33px;
+  background-position : 98% 1.5px;
+  background-repeat : no-repeat;
+}
+.maestro {
+  background-image : url('../img/creditcard/maestro.png');
+  background-size : 33px 33px;
+  background-position : 98% 1.5px;
+  background-repeat : no-repeat;
+}
+.amex {
+  background-image : url('../img/creditcard/amex.png');
+  background-size : 33px 33px;
+  background-position : 98% 1.5px;
+  background-repeat : no-repeat;
+}
+.discover {
+  background-image : url('../img/creditcard/discover.png');
+  background-size : 33px 33px;
+  background-position : 98% 1.5px;
+  background-repeat : no-repeat;
+}

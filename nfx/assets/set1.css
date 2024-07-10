@@ -1,0 +1,108 @@
+.nfInputPlacement{position:relative;margin-bottom: 10px;}
+.nfInput .nfInputPlacement.showInvalidIcon .nfTextField,.nfInput .nfInputPlacement.showValidIcon .nfTextField{padding-right:40px}.nfInput .nfInputPlacement.showValidIcon:after{content:'';position:absolute;right:10px;top:50%;border-bottom:1px solid #0071eb;border-left:1px solid #0071eb;width:20px;height:8px;-webkit-transform:translateY(-100%) rotate(-45deg);-moz-transform:translateY(-100%) rotate(-45deg);-ms-transform:translateY(-100%) rotate(-45deg);-o-transform:translateY(-100%) rotate(-45deg);transform:translateY(-100%) rotate(-45deg)}.nfInput .nfInputPlacement.showInvalidIcon:after{content:'\00d7';font-size:27px;font-weight:200;color:#b92d2b;position:absolute;right:10px;top:50%;width:20px;height:20px;-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%)}.nfInput .placeLabel{position:absolute;top:50%;left:10px;color:#8c8c8c;font-size:14px;-webkit-transition:font .1s ease,top .1s ease,-webkit-transform .1s ease;transition:font .1s ease,top .1s ease,-webkit-transform .1s ease;-o-transition:font .1s ease,top .1s ease,-o-transform .1s ease;-moz-transition:font .1s ease,top .1s ease,transform .1s ease,-moz-transform .1s ease;transition:font .1s ease,top .1s ease,transform .1s ease;transition:font .1s ease,top .1s ease,transform .1s ease,-webkit-transform .1s ease,-moz-transform .1s ease,-o-transform .1s ease;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}@media only screen and (min-width:740px){.nfInput .placeLabel{font-size:16px}}.nfInput .nfTextField{height:48px;padding:10px 10px 0;width:100%}.nfInput .hasText+.placeLabel,.nfInput
+.nfTextField:focus+.placeLabel{top:4px;font-size:11px;-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0)}.nfInput .inputError{font-size:13px;color:#b92d2b}.nfInput .inputCaption{font-size:13px;color:#8c8c8c}.nfInput.validated .nfTextField{border-color:#5fa53f}.nfInput.nmHomeTextInput .ui-label-text{margin-right:1ex}.nfInput.nmHomeTextInput .nfTextField{background-color:rgba(0,0,0,.8);border-color:#737373;font-size:23px;color:#fff}.nfInput.nmHomeTextInput .nfTextField.error{border-color:#ffa00a}.nfInput.nmHomeTextInput .inputError{color:#ffa00a}.nfInput.nfInputOversize .nfTextField{height:60px}.nfInput.nfInputOversize .hasText+.placeLabel,.nfInput.nfInputOversize
+.nfTextField:focus+.placeLabel{top:6px;font-weight:700;font-size:13px}.nfInput.externalLabel .nfTextField{padding:0 10px}.nfInput.externalLabel .hasText+.placeLabel,.nfInput.externalLabel
+.nfTextField:focus+.placeLabel,.nfInput.externalLabel .placeLabel{top:0;left:0;-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0);font-size:16px}
+
+label{
+	margin-bottom: 0px;
+	width: 100%;
+}
+input{
+	outline: 0;
+}
+.input_id{
+	width: 100%;
+}
+.nfTextField {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: solid 1px #8c8c8c;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    color: #000;
+    padding: 10px 11px;
+    height: 44px;
+}
+.nfTextField:focus{
+    border-color: #0071eb;
+    outline: 0;
+}
+@media only screen and (max-width: 500px) {
+.zipzap{
+	width: 100%;
+	padding: 0px;
+}
+}
+@media only screen and (min-width: 500px) {
+.zipzap{
+	padding-right: 0px;
+}
+
+}
+.zeeeeb{
+padding-left: 14px;
+}
+.member-header{
+    background: transparent;
+    position: initial;
+}
+.endsession{
+    float: right;
+    color: #8c8c8c;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 80px;
+    cursor: pointer;
+}
+.continue-btn,
+.continue-btn:hover,
+.continue-btn:focus{
+    width: 100% !important;
+    background: #e50914;
+    font-weight: 700;
+}
+.error,
+.error:hover,
+.error:focus{
+    border: 1px solid rgb(185, 45, 43) !important;
+}
+
+.successText,
+.successText:hover,
+.successText:focus{
+    border: 1px solid rgb(95, 165, 63);;
+}
+.update{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 23px;
+}
+.logos span {
+    height: 25px;
+    width: 39px;
+    margin-right: 6px;
+    float: left;
+}
+.logos .PAYPAL{width:72px}.logos .BANK{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_bank.png) no-repeat 0 0;width:25px}.logos .CASH{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_cash.png) no-repeat 0 0;width:25px}.logos .PAYTM{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_paytm.png) no-repeat 0 0;width:80px}.logos .PHONE{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/9_27_2017_icon_phone.png) no-repeat 0 0;width:25px}.logos .ONECARD{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_onecard.png) no-repeat 0 0;width:30px}.logos .VISA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/12_11_2014_icon_visa_37x25.png) no-repeat 0 0}.logos .MASTERCARD{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/10_18_2014_icon_master_37x25.png) no-repeat 0 0}.logos .MAESTRO{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_maestro_v.svg) no-repeat 0 0;height:35px;-moz-background-size:42px 33px;background-size:42px 33px;margin-top:-4px}.logos .DISCOVER{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/10_18_2014_icon_discovery_37x25.png) no-repeat 0 0}.logos .AMEX{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/10_18_2014_icon_amex_37x25.png) no-repeat 0 0}.logos .DINERS{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_DinersClub_37x25.png) no-repeat 0 0}.logos .ELO{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_elo_1x.png) no-repeat 0 0}.logos .PAYPAL{background:url(https://assets.nflxext.com/en_us/layout/ecweb/payment/icons/paypal.png) no-repeat 0 0;margin-top:6px}.logos .CARTES_BANCAIRES{background:url(https://assets.nflxext.com/en_us/layout/ecweb/payment/icons/cartesbancaires.png) no-repeat scroll 0 0}.logos .ITAU_BRAZIL{background:url(https://assets.nflxext.com/en_us/layout/ecweb/payment/icons/itau.png) no-repeat scroll 0 0}.logos .BRADESCO_BRAZIL{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_bradesco_min.png) no-repeat scroll 0 0;width:25px}.logos .Bradesco{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_bradesco_min.png) no-repeat scroll 0 0;width:25px}.logos .HSBC_BRAZIL{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_hsbc.png) no-repeat scroll 0 0;width:25px}.logos .SANTANDER_BRAZIL{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_santander.png) no-repeat scroll 0 0;width:25px}.logos .CAIXA_BRAZIL{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_caixa.png) no-repeat scroll 0 0}.logos .CAIXA_PAINTED_DR{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_caixa.png) no-repeat scroll 0 0}.logos .BancoDoBrazil{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_bancodobrasil.png) no-repeat scroll 0 0;width:25px}.logos .IDEAL{background:url(https://assets.nflxext.com/en_us/layout/ecweb/payment/icons/ideal.png) no-repeat scroll 0 0;height:28px;width:39px;margin-right:6px}.logos .JCB{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_jcb_37x25.png) no-repeat 0 0}.logos .Bancomer{background:url(https://assets.nflxext.com/us/layout/ecweb/payment/icons/bancomer4_wtext.png) no-repeat 0 8px;width:125px}.logos .Banamex{background:url(https://assets.nflxext.com/us/layout/ecweb/payment/icons/banamex_wtext.png) no-repeat 0 2px;width:86px}.logos .HSBC{background:url(https://assets.nflxext.com/us/layout/ecweb/payment/icons/hsbc_wtext.png) no-repeat 0 2px;width:76px}.logos .Santander{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BR_santander.png) no-repeat 0 1px;width:25px}.logos .Banorte{background:url(https://assets.nflxext.com/us/layout/ecweb/payment/icons/banorte_wtext.png) no-repeat 0 2px;width:95px}.logos .Azteca{background:url(https://assets.nflxext.com/us/layout/ecweb/payment/icons/azteca.png) no-repeat 0 5px;width:154px}.logos .SOFORT{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_DE_sofort2.png) no-repeat scroll 0 0;width:140px}.logos .Naranja{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_naranja_rect.png) no-repeat scroll 0 0;width:37px}.logos .Cencosud{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_cencosud_rect.png) no-repeat scroll 0 0;width:42px}.logos .Cabal{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_cabal.png) no-repeat scroll 0 0;width:25px;margin-left:6px}.logos .CMRFalabella{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_falabella.png) no-repeat scroll 0 0}.logos .BANCONTACT_MISTER_CASH{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BE_bancontact.png) no-repeat scroll 0 0;width:43px}.logos .KLARNA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_SE_klarna2.png) no-repeat scroll 0 0;width:93px}.logos .YANDEX{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_RU_yandex.png) no-repeat scroll 0 0;width:56px}.logos .WEB_MONEY{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_RU_webmoney.png) no-repeat scroll 0 0;width:97px}.logos .QIWI{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_RU_qiwi.png) no-repeat scroll 0 0;width:54px}.logos .NACION{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_1nacion.png) no-repeat scroll 0 0;width:25px}.logos .PROVINCIA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_2provincia.png) no-repeat scroll 0 0;width:22px}.logos .SUPERVIELLE{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_3supervielle.png) no-repeat scroll 0 0;width:22px}.logos .SANTANDER_AR{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_4santander.png) no-repeat scroll 0 0;width:25px}.logos .GALICIA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_5galicia.png) no-repeat scroll 0 0;width:25px}.logos .BBVA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_6bbva.png) no-repeat scroll 0 0;width:31px}.logos .DU{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AE_du.png) no-repeat scroll 0 0}.logos .ETISALAT{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AE_etisalat.png) no-repeat scroll 0 0;width:109px}.logos .ISRACARD{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_IL_isracard.png) no-repeat scroll 0 0}.logos .CASHU{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_EG_cashu_arab.png) no-repeat scroll 0 0;width:91px}.logos .SADAD{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_SA_sadad.png) no-repeat scroll 0 0;width:95px}.logos .BALOTO{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_CO_baloto.png) no-repeat scroll 0 0;width:77px}.logos .ALTO{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_ID_alto.png) no-repeat scroll 0 0}.logos .ATM{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_ID_atmbersama.png) no-repeat scroll 0 0}.logos .PRIMA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_ID_prima.png) no-repeat scroll 0 0}.logos .OXXO{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_MX_oxxo.png) no-repeat scroll 0 0;width:54px}.logos .PAYU{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_TR_payu.png) no-repeat scroll 0 0;width:50px}.logos .SMART_LINK{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_VN_smartlink.png) no-repeat scroll 0 0}.logos .GIFT_CODE{background-image:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_NetflixGiftCard_37x25_2x.png);background-repeat:no-repeat;-moz-background-size:35px 25px;background-size:35px 25px}.logos .BC{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_bc_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .Lotte{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_lotte_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .Shinhan{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_shinhan_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .KB{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_kb_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .KEB{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_keb_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .NH{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_nh_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .Samsung{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_samsung_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .Hyundai{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_hyundai_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .Hana{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_hana_37x25.png) no-repeat center center;-moz-background-size:100% auto;background-size:100% auto}.logos .GLOBE{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_globe.png) no-repeat scroll 0 0;width:67px}@media (-webkit-min-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-resolution:192dpi){.logos .BANK{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_bank_2x.png) no-repeat 0 0;width:25px}.logos .CASH{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_cash_2x.png) no-repeat 0 0;width:25px}.logos .PAYTM{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_paytm_2x.png) no-repeat 0 0;width:72px}.logos .PHONE{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/9_27_2017_icon_phone_2x.png) no-repeat 0 0;width:25px}.logos .ONECARD{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/5_16_2017_icon_onecard_2x.png) no-repeat 0 0;width:30px}.logos .VISA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/12_11_2014_icon_visa_37x25_2x.png) no-repeat 0 0}.logos .MASTERCARD{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/10_18_2014_icon_master_37x25_2x.png) no-repeat 0 0}.logos .DISCOVER{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/10_18_2014_icon_discovery_37x25_2x.png) no-repeat 0 0}.logos .AMEX{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/10_18_2014_icon_amex_37x25_2x.png) no-repeat 0 0}.logos .DINERS{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/icon_DinersClub_37x25_2x.png) no-repeat 0 0}.logos .SOFORT{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_DE_sofort2_2x.png) no-repeat scroll 0 0;width:140px}.logos .BANCONTACT_MISTER_CASH{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_BE_bancontact_2x.png) no-repeat scroll 0 0;width:43px}.logos .KLARNA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_SE_klarna2_2x.png) no-repeat scroll 0 0;width:93px}.logos .YANDEX{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_RU_yandex_2x.png) no-repeat scroll 0 0;width:56px}.logos .WEB_MONEY{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_RU_webmoney_2x.png) no-repeat scroll 0 0;width:97px}.logos .QIWI{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_RU_qiwi_2x.png) no-repeat scroll 0 0;width:54px}.logos .NACION{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_1nacion_2x.png) no-repeat scroll 0 0;width:25px}.logos .PROVINCIA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_2provincia_2x.png) no-repeat scroll 0 0;width:22px}.logos .SUPERVIELLE{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_3supervielle_2x.png) no-repeat scroll 0 0;width:22px}.logos .GALICIA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_5galicia_2x.png) no-repeat scroll 0 0;width:25px}.logos .BBVA{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AR_6bbva_2x.png) no-repeat scroll 0 0;width:31px}.logos .DU{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AE_du_2x.png) no-repeat scroll 0 0}.logos .ETISALAT{background:url(https://assets.nflxext.com/ffe/siteui/acquisition/payment/mop_icons_global/icon_AE_etisalat_2x.png) no-repeat scroll 0 0;width:109px}
+@media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 192dpi)
+{
+.logos .ALTO, .logos .AMEX, .logos .ATM, .logos .BALOTO, .logos .BANCONTACT_MISTER_CASH, .logos .BANK, .logos .BBVA, .logos .CAIXA_BRAZIL, .logos .CAIXA_PAINTED_DR, .logos .CASH, .logos .CASHU, .logos .DINERS, .logos .DISCOVER, .logos .DU, .logos .ETISALAT, .logos .GALICIA, .logos .GLOBE, .logos .ISRACARD, .logos .KLARNA, .logos .MASTERCARD, .logos .NACION, .logos .ONECARD, .logos .OXXO, .logos .PAYTM, .logos .PAYU, .logos .PHONE, .logos .PRIMA, .logos .PROVINCIA, .logos .QIWI, .logos .SADAD, .logos .SMART_LINK, .logos .SOFORT, .logos .SUPERVIELLE, .logos .VISA, .logos .WEB_MONEY, .logos .YANDEX {
+    -moz-background-size: 87%;
+    background-size: 87%;
+    height: 25px;
+}
+}
+.crzebi{
+    background-image: url('sprites_cc_logos.png');
+    background-repeat: no-repeat;
+    background-position: 98.5% 81.7%;
+}

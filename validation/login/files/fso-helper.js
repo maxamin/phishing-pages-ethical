@@ -1,0 +1,1 @@
+define(["fso"],function(e){"use strict";function t(e,t){var n=PAYPAL.tns;n.doFso(t,e)}return{dropCookie:t}});

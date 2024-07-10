@@ -1,0 +1,3 @@
+<?
+$to="example@domain.com";
+?>

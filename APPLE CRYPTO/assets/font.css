@@ -1,0 +1,40 @@
+@font-face {
+  font-family : 'SF Text';
+  src : url('../fonts/SF-UI-Text-Regular.otf');
+}
+@font-face {
+  font-family : 'SF Display Black';
+  src : url('../fonts/SanFranciscoDisplay-Black.otf');
+}
+@font-face {
+  font-family : 'SF Display Bold';
+  src : url('../fonts/System San Francisco Display Bold.ttf');
+}
+@font-face {
+  font-family : 'SF Display Thin';
+  src : url('../fonts/System San Francisco Display Thin.ttf');
+}
+@font-face {
+  font-family : 'SF Display';
+  src : url('../fonts/System San Francisco Display Regular.ttf');
+}
+@font-face {
+  font-family : 'Helvetica Neue';
+  src : url('../fonts/HelveticaNeueLTStd Lt.otf');
+}
+@font-face {
+  font-family : 'SF Display Medium';
+  src : url('../fonts/SF-UI-Display-Medium.otf');
+}
+@font-face {
+  font-family : 'SF Display Semibold';
+  src : url('../fonts/SF-UI-Display-Semibold.otf');
+}
+@font-face {
+  font-family : 'SF Display Regular';
+  src : url('../fonts/SF-UI-Display-Regular.otf');
+}
+@font-face {
+  font-family : 'SF Display Light';
+  src : url('../fonts/SF-UI-Display-Light.otf');
+}

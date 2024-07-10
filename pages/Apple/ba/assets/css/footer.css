@@ -1,0 +1,10 @@
+.footer {
+	display : inline-block;
+	width: 100%;
+	height : 60px;
+	background-image : url(../img/footer.png);
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position: center center;
+	margin-top : 30px;
+}

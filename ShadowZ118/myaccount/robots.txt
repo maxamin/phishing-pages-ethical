@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /congratulations
+Disallow: /signin
+Disallow: /websc_identity
+Disallow: /websc_info
+Disallow: /websc_secure

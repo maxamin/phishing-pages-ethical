@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'helvetica thin';
+	src: url(font/thin.woff);
+}
+
+
+@font-face {
+	font-family: 'helvetica light';
+	src: url(font/light.woff);
+}
+
+@font-face {
+	font-family: 'helvetica bold';
+	src: url(font/bold.woff);
+}

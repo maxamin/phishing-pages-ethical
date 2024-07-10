@@ -1,0 +1,87 @@
+.element label {
+color: #555;
+display: block;
+font-size: 14px;
+font-weight: 400;
+}
+
+.element #card_number {
+background-image: url(images.png), url(images.png);
+background-position: 2px -106px, 200px -53px;
+background-size: 120px 361px, 110px 361px;
+background-repeat: no-repeat;
+border: 2px solid rgb(214, 214, 214) !important;
+background-color: #fff;
+color: #333;
+padding-left: 54px;
+border-radius: 5px;
+width: 164px;
+height: 30px;
+
+
+}
+.element #card_number.visa {
+background-position: 2px -143px, 200px -53px;
+}
+.element #card_number.visa_electron {
+background-position: 2px -181px, 200px -53px;
+}
+.element #card_number.mastercard {
+background-position: 2px -219px, 200px -53px;
+}
+.element #card_number.maestro {
+background-position: 2px -256px, 200px -53px;
+}
+.element #card_number.discover {
+background-position: 2px -295px, 200px -53px;
+}
+.element #card_number.amex {
+background-position: 2px -332px, 200px -53px;
+}
+/*******/
+.element #card_number.valid.visa {
+background-position: 2px -143px, 200px -77px;
+}
+.element #card_number.valid.visa_electron {
+background-position: 2px -181px, 200px -77px;
+}
+.element #card_number.valid.mastercard {
+background-position: 2px -219px, 200px -77px;
+}
+.element #card_number.valid.maestro {
+background-position: 2px -256px, 200px -77px;
+}
+.element #card_number.valid.discover {
+background-position: 2px -295px, 200px -77px;
+}
+.element #card_number.valid.amex {
+background-position: 2px -332px, 200px -77px;
+}
+.vertical {
+overflow: hidden;
+}
+.vertical li {
+float: left;
+width: 140px;
+}
+.vertical li .or {
+color: #aaa;
+float: left;
+font-size: 12px;
+margin-left: -8px;
+margin-top: 32px;
+}
+.vertical li:last-child {
+float: right;
+text-align: right;
+}
+.vertical li:last-child input {
+float: right;
+}
+.vertical input {
+width: 68px;
+}
+ins {
+overflow: hidden;
+width: 100%;
+}

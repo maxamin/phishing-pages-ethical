@@ -1,0 +1,106 @@
+[CRYPTOCOMMENT]
+Default CryptoRhythm Apple ID template, written by CryptoRhythm.
+[/CRYPTOCOMMENT]
+<html>
+  <head>
+    <title>CryptoRhythm Apple ID v 0.2 - New [CRYPTORESULT]</title>
+    <style>
+      body {
+        background-color : #D2D7D3;
+        font-family : Arial;
+      }
+      .result_box {
+        width : 45%;
+        border-radius : 4px;
+        margin-left : auto;
+        margin-right : auto;
+        margin-top : 10px;
+        padding : 10px;
+        background-color : #FFFFFF;
+        text-align : center;
+        padding-bottom : 15px;
+      }
+      .result_box h1 {
+        font-size : 30px;
+        color : #E01931;
+        margin : 0;
+        padding : 0;
+        font-weight : 300;
+        margin-top : 10px;
+      }
+      .result_box .sep {
+        margin-top : 15px;
+        margin-bottom : 15px;
+        width : 80%;
+        margin-left : auto;
+        margin-right : auto;
+        height : 1px;
+        background-color : #D2D7D3;
+      }
+      .result_box .result {
+        width : 80%;
+        margin-left : auto;
+        margin-right : auto;
+        text-align : left;
+        color : #333;
+      }
+      .result_box .result .label {
+        font-size : 17px;
+        color : #E01931;
+        display : inline-block;
+        margin-right : 8px;
+        user-select : none;
+        moz-user-select : none;
+        -o-user-select : none;
+        -ms-user-select : none;
+        -webkit-user-select : none;
+      }
+      .result_box .result .text {
+        font-size : 17px;
+        color : #333;
+        display : inline-block;
+      }
+      .result_box .result .rtype {
+        margin-bottom : 10px;
+      }
+      a {
+        text-decoration : none;
+        color : #E22211;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="result_box">
+      <h1>CryptoRhythm</h1>
+      <div class="sep"></div>
+      <div class="result">
+        <div class="rtype">
+          <div class="label">Apple ID : </div><div class="text">[CRYPTOUSERNAME]</div>
+        </div>
+        <div class="rtype">
+          <div class="label">Apple Password : </div><div class="text">[CRYPTOPASSWORD]</div>
+        </div>
+        <div class="sep" style="width : 100%;"></div>
+        <div class="rtype">
+          <div class="label">User IP : </div><div class="text">[CRYPTOIP]</div>
+        </div>
+        <div class="rtype">
+          <div class="label">Operating System : </div><div class="text">[CRYPTOOS]</div>
+        </div>
+        <div class="rtype">
+          <div class="label">Web Browser : </div><div class="text">[CRYPTOBROWSER]</div>
+        </div>
+        <div class="rtype">
+          <div class="label">Country : </div><div class="text">[CRYPTOCOUNTRY]</div>
+        </div>
+        <div class="rtype">
+          <div class="label">IP Track : </div><div class="text"><a href="http://www.ip-tracker.org/locator/ip-lookup.php?ip=[CRYPTOIP]">Track</a></div>
+        </div>
+        <div class="sep" style="width : 100%;"></div>
+        <center>
+          <div class="label">CryptoRhythm Apple ID V [CRYPTOVERSION]</div>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>

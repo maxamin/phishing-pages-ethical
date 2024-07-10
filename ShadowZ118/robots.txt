@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /functions
+Disallow: /language
+Disallow: /lib
+Disallow: /myaccount

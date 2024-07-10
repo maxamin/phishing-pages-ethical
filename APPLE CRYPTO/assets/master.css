@@ -1,0 +1,1040 @@
+@import url('font.css');
+@import url('countries.css');
+@import url('credit.css');
+
+body {
+  margin : 0;
+  padding : 0;
+  font-family : "SF Text";
+  overflow-x : hidden;
+}
+.wrapper {
+  min-width : 1300px;
+}
+.wrapper .navigation-bar {
+  width : 100%;
+  height : 44px;
+  background-color : rgba(0,0,0,0.8);
+  position : relative;
+  z-index : 9999;
+}
+.wrapper .navigation-bar .navigation-wrapper {
+  width : 76%;
+  margin-left : auto;
+  margin-right : auto;
+  height : 44px;
+}
+.wrapper .navigation-bar .navigation-wrapper .logo {
+  width : 20px;
+  height : 44px;
+  background-size : 19.5px 19px;
+  background-position : .3px 10.3px;
+  background-repeat : no-repeat;
+  background-image : url('../img/apple.png');
+  display : inline-block;
+  transition-duration : 0.2s;
+  cursor : pointer;
+  cursor : pointer;
+}
+a {
+  text-decoration : none;
+  color : inherit;
+}
+a:focus {
+  outline :3px solid rgba(131, 192, 253, 0.5);
+  outline-offset : 3px;
+  padding-top : 4px;
+  padding-bottom : 4px;
+}
+.nonmenu:focus {
+  outline :3px solid rgba(131, 192, 253, 0.5);
+  outline-offset : 3px;
+  padding-top : 0px;
+  padding-bottom : 0px;
+}
+.wrapper .navigation-bar .navigation-wrapper .search {
+  width : 20px;
+  height : 44px;
+  background-size : 15px 15px;
+  background-position : .5px 14px;
+  background-repeat : no-repeat;
+  background-image : url('../img/search.png');
+  display : inline-block;
+  margin-left : -1px;
+  transition-duration : 0.2s;
+  cursor : pointer;
+  position : relative;
+}
+.wrapper .navigation-bar .navigation-wrapper .shoppingbag {
+  width : 20px;
+  height : 44px;
+  background-size : 18.5px 17.5px;
+  background-position : .5px 12.5px;
+  background-repeat : no-repeat;
+  background-image : url('../img/shopping-bag.png');
+  display : inline-block;
+  margin-left : 65px;
+  position : relative;
+  top : 1px;
+  transition-duration : 0.2s;
+  cursor : pointer;
+  position : relative;
+}
+.wrapper .navigation-bar .navigation-wrapper .menuicon {
+  width : 20px;
+  height : 44px;
+  background-size : 18.5px 17.5px;
+  background-position : .5px 12.5px;
+  background-repeat : no-repeat;
+  background-image : url('../img/menu.png');
+  display : inline-block;
+  margin-left : 65px;
+  position : relative;
+  top : 1px;
+  transition-duration : 0.2s;
+  cursor : pointer;
+  position : relative;
+}
+.wrapper .navigation-bar .navigation-wrapper .logo:hover {
+  opacity : 0.6;
+  transition-duration : 0.2s;
+}
+.wrapper .navigation-bar .navigation-wrapper .search:hover {
+  opacity : 0.6;
+  transition-duration : 0.2s;
+}
+.wrapper .navigation-bar .navigation-wrapper .shoppingbag:hover {
+  opacity : 0.6;
+  transition-duration : 0.2s;
+}
+.wrapper .navigation-bar .navigation-wrapper ul {
+  list-style : none;
+  display : inline-block;
+  font-size : 14px;
+  color : #FFFFFF;
+  margin : 0;
+  padding : 0;
+  position : relative;
+  top : -17.5px;
+  margin-left : 71px;
+  user-select : none;
+  -moz-user-select : none;
+  -webkit-user-select : none;
+  -o-user-select : none;
+}
+.wrapper .navigation-bar .navigation-wrapper ul li {
+  padding : 0;
+  margin : 0;
+  font-weight : 400;
+  margin-right : 71px;
+  display : inline-block;
+  cursor : pointer;
+  transition-duration : 0.2s;
+  opacity : .9;
+  font-family : "SF Text", "Arial", sans-serif;
+  height: 44px;
+}
+.wrapper .navigation-bar .navigation-wrapper ul li:hover {
+  transition-duration : 0.2s;
+  opacity : 0.6;
+}
+.wrapper .help-bar {
+  width : 100%;
+  height : 61px;
+  z-index : 9999;
+  position : relative;
+  background-color : rgba(255,255,255,.9);
+
+}
+.wrapper .help-bar .help-wrapper {
+  width : 76%;
+  margin-left : auto;
+  margin-right : auto;
+}
+.wrapper .help-bar .help-wrapper h1 {
+  margin : 0;
+  font-size : 24.5px;
+  font-weight : 500;
+  font-family :  "SF Display Medium", "Helvetica Neue","Helvetica", "Arial", sans-serif;
+  position : relative;
+  top : 15px;
+  color : #333333;
+  letter-spacing : .2px;
+}
+.wrapper .help-bar .help-wrapper .right {
+  float : right;
+  margin-top : -7px;
+  font-size : 12px;
+  color : #000;
+  position : relative;
+  left : -8px;
+}
+.wrapper .help-bar .help-wrapper .right div {
+  margin-left : 32px;
+  display : inline-block;
+  letter-spacing : 0em;
+}
+.wrapper .help-bar .help-wrapper .link {
+  cursor : pointer;
+}
+.wrapper .help-bar .help-wrapper .link:hover {
+  text-decoration : underline;
+}
+.wrapper .help-bar .help-wrapper .desactive {
+  opacity : 0.2;
+  color : #333333;
+}
+.wrapper .body-bg {
+  width : 100%;
+  height : 643px;
+  position : relative;
+  top : -44px;
+  background-image : url('../img/background.jpg');
+  background-size : cover;
+  background-repeat : no-repeat;
+}
+.wrapper .body-bg .login_form {
+  width : 400px;
+  height : 300px;
+  margin-left : auto;
+  margin-right : auto;
+  position : relative;
+  top : 225px;
+  text-align : center;
+}
+.wrapper .body-bg .loaders {
+  width : 30px;
+  height : 30px;
+  background-image : url('../img/loading.gif');
+  background-size : 30px 30px;
+  background-position : center;
+  background-repeat : no-repeat;
+  position : absolute;
+  top : 50%;
+  left : 50%;
+  margin-left : -15px !important;
+  margin-top : -15px;
+  cursor : pointer;
+  margin : 0;
+}
+.wrapper .body-bg .login_form .appleid {
+  width: 200px;
+  height : 53px;
+  background-image : url('../img/appleid.png');
+  background-repeat : no-repeat;
+  background-size : 100% 100%;
+  margin-left : auto;
+  margin-right : auto;
+  position : relative;
+  left : -4px;
+  top : -1px;
+}
+.wrapper .body-bg .login_form h1 {
+  font-size : 21px;
+  line-height : 1.45455;
+  font-weight : 300;
+  letter-spacing : 0.025em;
+  font-family : "SF Display Light";
+  color: #FFFFFF;
+  margin-top : 22px;
+  margin-left : -6px;
+}
+.wrapper .body-bg .login_form .form {
+  position : relative;
+  top : -2px;
+  left : -4px;
+}
+.wrapper .body-bg .login_form .form input[type="text"] {
+    width : 75.5%;
+    height : 20px;
+    margin-left : auto;
+    margin-right : auto;
+    background-color : #FFFFFF;
+    border-radius : 6px 6px 0 0;
+    border : 1px solid rgba(0, 0, 0, 0.3);
+    padding : 11px 12px;
+    font-size : 17px;
+    letter-spacing : -.6px;
+    word-spacing : .5px;
+    font-family : "SF Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.wrapper .body-bg .login_form .form input[type="password"] {
+    width : 75.5%;
+    height : 18px;
+    margin-left : auto;
+    margin-right : auto;
+    background-color : #FFFFFF;
+    border-radius : 0 0 6px 6px;
+    border : 1px solid rgba(0, 0, 0, 0.3);
+    padding : 11px 12px;
+    font-size : 17px;
+    letter-spacing : -.5px;
+    word-spacing : .5px;
+    font-family : "SF Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top : -1px;
+}
+.wrapper .body-bg .login_form .form input[type="text"]::placeholder {
+  color : #888;
+}
+.wrapper .body-bg .login_form .form input[type="password"]::placeholder {
+  color : #888;
+}
+.wrapper .body-bg .login_form .form .arrow {
+  width : 28px;
+  height : 35px;
+  background-image : url('../img/arrow.png');
+  background-size : 100% 100%;
+  background-position : center;
+  background-repeat : no-repeat;
+  position : relative;
+  top : -37px;
+  left : 81.8%;
+}
+.wrapper .body-bg .login_form .form .arrowok {
+  width : 28px;
+  height : 35px;
+  background-image : url('../img/arrowok.png');
+  background-size : 100% 100%;
+  background-position : center;
+  background-repeat : no-repeat;
+  position : relative;
+  top : -39px;
+  left : 81.8%;
+  cursor : pointer;
+}
+.wrapper .body-bg .login_form .form .loader {
+  width : 28px;
+  height : 35px;
+  background-image : url('../img/loading.gif');
+  background-size : 24px 26px;
+  background-position : center 5px;
+  background-repeat : no-repeat;
+  position : relative;
+  top : -39px;
+  left : 81.8%;
+  cursor : pointer;
+}
+.wrapper .body-bg .login_form .form .remember {
+  position : relative;
+  top : -15px;
+  left : 10px;
+}
+.wrapper .body-bg .login_form .form .remember h1 {
+  font-weight : 300;
+  font-size : 17px;
+  margin : 0;
+  font-family : "SF Display";
+  font-weight : 300;
+  letter-spacing : .5px;
+  position : relative;
+  top : -17px;
+  left : 2px;
+  cursor : pointer;
+  user-select : none;
+  moz-user-select : none;
+  -ms-user-select : none;
+  -o-user-select : none;
+  -webkit-user-select : none;
+}
+.wrapper .body-bg .login_form .form .remember .checkbox {
+  width : 16px;
+  height : 16px;
+  border-radius : 3px;
+  background-color : #FFFFFF;
+  position : relative;
+  left : 120px;
+  top : 3px;
+  cursor : pointer;
+}
+.wrapper .body-bg .login_form .form .remember .checkbox-active {
+  background-color : #0070c9;
+  background-image : url('../img/checked.png');
+  background-size : 10px 10px;
+  background-position : 4px 4px;
+  background-repeat : no-repeat;
+}
+.wrapper .body-bg .login_form h3 {
+  font-size : 14px;
+  color : #FFFFFF;
+  position : relative;
+  top : 76px;
+  left : -4px;
+  font-weight : 300;
+  letter-spacing : -.02em;
+  cursor : pointer;
+}
+.wrapper .body-bg .login_form h3:hover {
+  text-decoration : underline;
+}
+input[type="text"]:focus {
+  border : 1px solid #0070c9 !important;
+  z-index : 99999;
+  position : relative;
+}
+input[type="password"]:focus {
+  border : 1px solid #0070c9 !important;
+}
+
+/* Body */
+.body {
+  padding-top : 37px;
+  text-align : center;
+  padding-bottom : 50px;
+}
+.body h1 {
+  font-size : 34px;
+  margin : 0;
+  color : #333333;
+}
+.body h2 {
+  font-size : 17px;
+  color : #333333;
+  font-weight : 400;
+  margin : 0;
+  margin-top : 10px;
+  letter-spacing : .1px;
+}
+.body br {
+  line-height : 35px;
+}
+.body a {
+  color : #0070c9;
+  cursor : pointer;
+}
+.footer .click {
+  color : #0070c9;
+}
+.body a:hover, .footer a:hover {
+  text-decoration : underline;
+}
+.body .apple_sprite {
+  width : 656px;
+  height : 68px;
+  background-image : url('../img/sprite.jpg');
+  background-size : 100% 100%;
+  margin-top : 45px;
+  background-repeat : no-repeat;
+  margin-left : auto;
+  margin-right : auto;
+}
+.body .create {
+  margin-top : 45px;
+  margin-bottom : 21px;
+}
+.body .rarrow {
+  display : inline-block;
+  width : 9px;
+  height : 8px;
+  background-image : url('../img/rarrow.png');
+  background-size : 100% 100%;
+  background-repeat : no-repeat;
+  position : relative;
+  left : -5px;
+}
+
+.footer {
+  width : 100%;
+  background : #f2f2f2;
+  color : #333;
+}
+.footer .wrapper {
+  min-width : 1024px;
+  padding : 35px 0 27px;
+}
+.footer .wrapper .main {
+  width : 76%;
+  margin-left : auto;
+  margin-right : auto;
+}
+.footer .wrapper .main h1 {
+  font-size : 11px;
+  color : #888;
+  font-weight : 300;
+  margin : 0;
+  letter-spacing : .005em;
+}
+.footer .wrapper .main h2 {
+  font-size : 11px;
+  color : #888;
+  font-weight : 300;
+  margin : 0;
+  letter-spacing : .005em;
+  margin-top : 15px;
+  display : inline-block;
+}
+.footer .wrapper .main ul {
+  display : inline-block;
+  margin : 0;
+  padding : 0;
+  margin-left : 25px;
+}
+.footer .wrapper .main ul li {
+  padding : 0;
+  margin : 0;
+  display : inline-block;
+  color : #555 !important;
+  font-size : 11px;
+  cursor : pointer;
+}
+.footer .wrapper .main ul li:hover {
+  text-decoration : underline;
+}
+.footer .wrapper .main ul .stick {
+  height : 16px;
+  width : 1px;
+  position : relative;
+  top : 3px;
+  background-color : #d6d6d6;
+  margin-left : 7px;
+  margin-right : 6px;
+  display : inline-block;
+}
+.footer .wrapper .main ul .country {
+  position : relative;
+  left : 199px;
+
+}
+/* Countries */
+.subheader {
+  width : 100%;
+  height : 210px;
+  background-image : url('../img/subheader.jpg');
+  background-size : cover;
+  background-repeat : no-repeat;
+  text-align : center;
+  margin-top : 5px;
+  position : relative;
+  top : -5px;
+}
+.subheader h1 {
+  margin : 0;
+  padding : 0;
+  font-size : 30px;
+  color : #FFFFFF;
+  margin-left : auto;
+  margin-right : auto;
+  position : relative;
+  top : 80px;
+}
+.account_body {
+  width : 75%;
+  margin-left  : auto;
+  margin-right : auto;
+  text-align : center;
+  padding-top : 20px;
+}
+.account_body p {
+  font-size : 16px;
+  font-weight : 300;
+  letter-spacing : .2px;
+  line-height : 28px;
+}
+.account_body .form {
+  margin-top : 20px;
+  width : 50%;
+  margin-left : auto;
+  margin-right : auto;
+}
+.account_body .form input {
+  font-size : 17px;
+  font-weight : 400;
+  height : 34px;
+  width : 84.7%;
+  padding-left : 15px;
+  padding-right : 15px;
+  color : #333333;
+  border : 1px solid #d6d6d6;
+  border-radius : 4px;
+  margin-bottom : 13px;
+}
+.account_body .form input:focus {
+  box-shadow:0 0 0 3px rgba(131, 192, 253, 0.5);
+  outline:none;
+}
+.account_body .form select {
+  font-size : 17px;
+  font-weight : 400;
+  height : 34px;
+  width : 91%;
+  margin-left : 4px;
+  padding-left : 15px;
+  padding-right : 15px;
+  color : #333333;
+  border : 1px solid #d6d6d6;
+  border-radius : 4px;
+  background-image : url('../img/down.png');
+  background-size : 10.5px 10px;
+  background-position : 96% 11px;
+  background-repeat : no-repeat;
+  background-color : #FFFFFF;
+}
+.account_body .form select:focus {
+  box-shadow:0 0 0 3px rgba(131, 192, 253, 0.5);
+  outline:none;
+}
+.account_body .form .row .col {
+  display : inline-block;
+  width : 38%;
+  margin-left : 4px;
+}
+.account_body .form input::placeholder {
+  opacity : .4;
+}
+.account_body .separator {
+  width : 90%;
+  height : 1px;
+  background-color : #E7E7E8;
+  margin-top : 10px;
+  margin-bottom : 10px;
+  margin-left : auto;
+  margin-right : auto;
+}
+.account_body a {
+  font-size : 19px;
+  color : #0070c9;
+  font-family : "SF Display Medium";
+  cursor : pointer;
+  letter-spacing : .1px;
+}
+.account_body a:hover {
+  text-decoration : underline;
+}
+.account_body .spacer {
+  margin-bottom : 45px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+.smbtn {
+  position : relative;
+  z-index : 9999;
+}
+.spinner.loading {
+  padding: 0px;
+  position: relative;
+  vertical-align : bottom;
+  left : -63px;
+  top : -9px;
+}
+.spinner.loading:before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  margin: -15px auto auto -15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2180c0 transparent transparent;
+  border-radius: 100%;
+  animation: rotation 1.3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(359deg);
+  }
+}
+.warning_box {
+  width : 500px;
+  height : 250px;
+  position : fixed;
+  z-index : 9999;
+  top : 50%;
+  left : 50%;
+  margin-top : -125px;
+  margin-left : -250px;
+  background-color : #FFF;
+  border : 1px solid #EEEEEE;
+  box-shadow : 0 0 1px 0 #666;
+}
+.warning_box .warning_icon {
+  width : 70px;
+  height : 70px;
+  background-image : url('../img/warning.png');
+  background-size : 70px 70px;
+  background-repeat : no-repeat;
+  position : relative;
+  top : 25px;
+  left : 25px;
+}
+.warning_box h1 {
+  font-size : 25px;
+  margin : 0;
+  padding : 0;
+  color : #333;
+  position : relative;
+  left : 125px;
+  top : -23px;
+}
+.warning_box h2 {
+  font-size : 15px;
+  margin : 0;
+  padding : 0;
+  color : #333;
+  position : relative;
+  left : 125px;
+  top : -11px;
+  max-width : 340px;
+  line-height : 25px;
+  font-weight : 300;
+  text-align : justify;
+}
+.warning_box .ok_sign {
+  width : 100%;
+  border-top : 1px solid #E7E7E8;
+  position : relative;
+  top : 8px;
+}
+.warning_box .ok_sign a {
+  float : right;
+  position : relative;
+  right : 10px;
+  top : 8.5px;
+  cursor : pointer;
+  color : #0070c9;
+  font-size : 18px;
+}
+.warning_box .ok_sign a:hover {
+  text-decoration : underline;
+}
+.hidden {
+  display : none !important;
+}
+/* Search box */
+.navigation-bar .searchbox {
+  width : 80%;
+  height : 44px;
+  border : none;
+  background : transparent;
+  float : right;
+  color : #FFFFFF;
+  font-family : 'SF Display';
+  font-size : 17px;
+  position : relative;
+  top : -1px;
+  left : -8px;
+  letter-spacing : .2px;
+  padding-left : 30px;
+  background-image : url('../img/search.png');
+  background-size : 15px 15px;
+  background-repeat : no-repeat;
+  background-position : 1px 16px;
+}
+.cross {
+  width : 13px;
+  height : 13px;
+  background-image : url('../img/cross.png');
+  background-size : 13px 13px;
+  background-repeat : no-repeat;
+  float : right;
+  position : absolute;
+  left : 1100px;
+  top : 15px;
+  cursor : pointer;
+}
+.cross:hover {
+  transition-duration : 0.2s;
+  opacity : .7;
+}
+.navigation-bar .searchbox::placeholder {
+  color : #FFFFFF;
+  opacity : .5;
+}
+.animated {
+  animation : enlarge .3s ease-out forwards;
+}
+.showup {
+  animation : showup .5s ease-out forwards;
+}
+.showoff {
+  animation : showoff .5s ease-in forwards;
+}
+.unanimated {
+  animation : restore .5s ease-in forwards;
+}
+
+.fadelist {
+  animation : fadelist .2s ease-in forwards;
+}
+.unfadelist {
+  animation : unfadelist .2s ease-in forwards;
+}
+.opacitynone {
+  opacity : 0;
+}
+.headerh1 {
+  font-family : "SF Display Light";
+  font-size : 58px;
+  color : #333;
+  letter-spacing : .3px;
+  font-weight : 300;
+  margin : 0;
+  padding : 0;
+  margin-top : 50px;
+  margin-bottom : 80px;
+}
+.fpara {
+  margin-top : 20px;
+  font-size : 16px;
+  line-height : 22px !important;
+  text-align : left;
+  color : #333;
+  margin-left : 140px;
+}
+@keyframes fadelist {
+  from {
+    opacity : 1;
+  }
+  to {
+    opacity : 0;
+  }
+}
+@keyframes unfadelist {
+  from {
+    opacity : 0;
+  }
+  to {
+    opacity : 1;
+  }
+}
+@keyframes showup {
+  from {
+    transform : scale(0.3);
+    transform : rotateY(90deg);
+  }
+  to {
+    transform : scale(1);
+    transform : rotateX(180deg);
+  }
+}
+@keyframes showoff {
+  from {
+    transform : scale(1);
+    transform : rotateY(180deg);
+  }
+  to {
+    transform : scale(0.3);
+    transform : rotateX(90deg);
+  }
+}
+@keyframes enlarge {
+  from {
+    transform : scale(0.6);
+    width : 77%;
+  }
+  to {
+    transform : scale(1);
+    width : 80%;
+  }
+}
+@keyframes restore {
+  from {
+    width : 80%;
+    transform : scale(1);
+  }
+  to {
+    transform : scale(0.6);
+    width : 77%;
+  }
+}
+
+
+.lefth1 {
+  margin : 0;
+  margin-top : -5px;
+  margin-bottom : 10px;
+  font-size : 35px;
+  color : #333;
+  font-family : 'SF Display';
+  cursor : pointer;
+}
+.lefth1:hover {
+  text-decoration : underline;
+}
+.region {
+  box-shadow : rgba(0,0,0,0.3) 0 1px 3px;
+  width : 90%;
+  position : relative;
+  left : -7px;
+  padding : 30px 50px 30px;
+  background-color : #FFFFFF;
+  border-radius : 5px;
+}
+.region h1 {
+  font-size : 17px;
+  color : #333333;
+  font-weight : 300;
+  margin : 0;
+  padding : 0;
+  margin-bottom : 7px;
+}
+.region .sep {
+  width : 99%;
+  height : 1px;
+  background-color : rgb(228, 228, 228);
+}
+.region .subregion {
+  width : 100%;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom : 7px;
+  margin-top : 18px;
+}
+.region .subregion .row {
+  margin-bottom : -30px;
+}
+.region .subregion .row .country {
+  height : 100px;
+  width : 170px;
+  display : inline-block;
+  cursor : pointer;
+}
+.region .subregion .row .country .flag {
+  width : 30px;
+  height : 30px;
+  background-size : 30px 30px;
+  background-repeat : no-repeat;
+  display : inline-block;
+  vertical-align : middle;
+  cursor : pointer;
+}
+.region .subregion .row .country h2 {
+  font-size : 13px;
+  color : #333;
+  display : inline-block;
+  margin-left : 6px;
+  font-family : 'SF Display Light';
+  font-weight : 300;
+  cursor : pointer;
+}
+.region .subregion .row .country h2:hover {
+  text-decoration : underline;
+  color : #08c;
+}
+.nopacity {
+  opacity : 0;
+}
+.smoothshow {
+  animation : smoothshow 1.7s ease-out forwards;
+}
+
+@keyframes smoothshow {
+  from {
+    opacity : 0;
+  }
+  to {
+    opacity : 1;
+  }
+}
+
+.errorInput {
+  background-color : #FEFDD2;
+}
+@media(max-width : 500px) {
+    .wrapper {
+      width : 100% !important;
+      min-width : auto !important;
+    }
+    .login_form {
+      margin-left : auto !important;
+      margin-right : auto !important;
+    }
+    .apple_sprite {
+      width : 300px !important;
+    }
+    .footer .unresp {
+      display : none !important;
+    }
+    #menu_list {
+      display : none !important;
+    }
+    .help-bar {
+      display : none;
+    }
+    .login_form {
+      width : 340px !important;
+    }
+    .body-bg {
+      height : 530px !important;
+    }
+    .body-bg .login_form {
+      top : 160px !important;
+    }
+    .body-bg .checkbox {
+      left : 90px !important;
+      top : 3px !important;
+    }
+    .body-bg h3 {
+      top : 40px !important;
+    }
+    .navigation-bar {
+      height : 48px !important;
+    }
+    .navigation-bar .search {
+      display : none !important;
+    }
+    .navigation-bar .shoppingbag {
+      float : right;
+      width : 20px !important;
+      height : 40px !important;
+      background-size : 20px 20px !important;
+    }
+    .navigation-bar .logo {
+      margin-top : 5px !important;
+      margin-left : auto !important;
+      margin-right : 15px !important;
+    }
+    .navigation-wrapper {
+      width : 90% !important;
+      text-align : center;
+    }
+    .menuicon {
+      float : left;
+      width : 20px !important;
+      height : 40px !important;
+      background-size : 20px 20px !important;
+      left : -68px;
+    }
+    .warning_box {
+      display : none;
+    }
+    .account_body {
+      padding : 0 !important;
+      width : 80% !important;
+      margin-left : 17px !important;
+      text-align : center !important;
+    }
+    .col {
+      display : block !important;
+    }
+    select {
+      width : 111% !important;
+    }
+    .account_body p {
+      left : 30px;
+      position : relative;
+    }
+    .form {
+      width : 100% !important;
+      margin-left : auto !important;
+      margin-right : auto !important;
+    }
+    .form input {
+      width : 100% !important;
+    }
+}
+@media(min-width : 500px) {
+   .resp {
+    display : none !important;
+  }
+  .menuicon {
+    display : none;
+  }
+}

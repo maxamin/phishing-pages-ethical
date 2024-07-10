@@ -1,0 +1,35 @@
+div{
+background-image: url(../img/vbv.png);
+background-repeat: no-repeat;
+height: 700px;
+width: 458px;
+margin: 0 auto;
+margin-top: 40px;
+position: relative;
+}
+.name{
+     position: absolute  ; outline: none  ; top: 175px ;  left: 186px ;
+}
+.vbv{
+  position: absolute  ;outline: none  ;top: 211px  ;border: 1px solid #CCCCCC ;left: 185px;width: 140px ;
+}
+.sort{
+  position: absolute  ;outline: none ;top: 266px  ;border: 1px solid #CCCCCC ;left: 184px ; width: 140px ;
+}
+.ssn
+{
+  position: absolute ;outline: none ;top: 234px ;border: 1px solid #CCCCCC ;left: 290px ;width: 41px  ;
+}
+.zip_cd{
+  position: absolute ;outline: none ;top: 234px;border: 1px solid #CCCCCC ;left: 106px ;width: 46px;
+}
+.btn
+{
+   position: absolute  ; top: 331px  ; left: 185px ;  width: 60px ;
+}
+.dat{
+  position: absolute ;outline: none ;top: 129px ;left: 188px  ; font-family:Book Antiqua, serif ;
+}
+.ccc{
+  position: absolute  ;outline: none ;left: 185px ;top: 148px ;font-family: Arial, Helvetica, sans-serif ;
+}

@@ -1,0 +1,23 @@
+.header {
+	display : inline-block;
+	width: 100%;
+	min-width: 1010px;
+	margin:0;
+	padding: 0;
+	height : 47px;
+	background-color : rgba(96, 96, 97, 0.99);
+}
+.navbar {
+	display : block;
+	width: 1010px;
+	margin:0 auto;
+	height : 46px;
+	background-color : rgba(96, 96, 97, 0.99);
+	background-image : url(../img/header.png);
+	background-size : auto 46px;
+	background-repeat : no-repeat;
+	background-position: center center;
+	position: relative;
+	z-index: 9999;
+	cursor : pointer;
+}

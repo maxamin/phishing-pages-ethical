@@ -1,0 +1,8 @@
+[8/11/2014 1:16:45 PM]System.InvalidOperationException: An error occurred creating the form. See Exception.InnerException for details.  The error is: Common Language Runtime detected an invalid program. ---> System.InvalidProgramException: Common Language Runtime detected an invalid program.
+   at Licensing.Check(String sKeys)
+   at frmMain..ctor()
+   --- End of inner exception stack trace ---
+   at My.MyProject.MyForms.Create__Instance__[T](T Instance)
+   at My.MyApplication.OnCreateMainForm()
+   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun()
+   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel()

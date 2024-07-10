@@ -1,0 +1,199 @@
+
+body, center {
+    font-family: Lucida Grande, Geneva, Verdana, Arial;
+    font-size:   12px;
+    color:       #000000;
+	background-color: #F2F3F4;
+	font: 0.75em/1.13em "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	margin : 0;
+}
+a:hover {
+	color: #08C;
+}
+a:visited {
+	color: #08C;
+}
+a:link {
+	color: #08C;	
+}
+a:visited {
+	color: #08C;
+	text-decoration: none;
+}
+a:link {
+	color: #08C;
+	text-decoration: none;
+}
+a:link {
+	color: #12C;
+}
+a:hover {
+	color: #214182;
+}
+a:visited {
+	color: #4673CB;
+}
+a:link {
+	color: #4673CB;
+}
+a {
+	text-decoration: none;
+}
+select{
+	font-size:13px;padding:3px;margin:0;
+}
+h1 {
+	font-family: "Lucida Grande", Arial;
+	font-weight: bold;
+	font-size: 13px;
+	color: #4A5A66;
+}
+
+.main {
+	display : block;
+	padding : 10px;
+	width: 985px;
+	margin: 0 auto;
+}
+.myid {
+	display : block;
+	margin-left : 10px;
+	margin-top: 13px;
+}
+.headerlogo {
+	display : block;
+	height : 30px;
+	cursor : pointer;
+	padding-top: 15px;
+}
+.layout {
+	display : inline-block;
+	width: 100%;
+	height: 450px;
+	min-height : 100px;
+	margin-top: 25px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+	-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+	background: #fff;
+	border: 1px solid;
+	border-color: #e5e5e5 #dbdbdb #d2d2d2;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+	-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+	box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+	position: relative;
+	padding: 0;
+
+}
+.layout-left {
+	display: block;
+	width: 35%;
+	height: 100%;
+	float:left;
+	background-color : rgba(0, 0, 0, 0.02);
+	border-right: 1px solid #e7e7e7;
+	margin-bottom: -3px;
+	background-image : url(../img/left.png);
+	background-repeat : no-repeat;
+	background-position: center 10px;
+	clear : both;
+}
+.layout-leftA {
+	display: block;
+	width: 35%;
+	height: 100%;
+	float:left;
+	background-color : #fff;
+	border-right: 1px solid #e7e7e7;
+	margin-bottom: -3px;
+	background-image : url('../img/sup.png');
+	background-repeat : no-repeat;
+	background-position: center 10px;
+	clear : both;
+}
+.layout-right {
+	display: block;
+	height: 100%;
+	float:left;
+	padding: 20px;
+	margin-left: 50px;
+}
+.signin {
+font-size: 20px ;
+  font-weight: normal;
+}
+.login {
+	display: block;
+	padding-bottom: 40px;
+	padding-right: 80px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.forget {
+	font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+}
+p.formwrap {
+display: inline-block;
+  padding: 3px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #EEE;
+  margin-right: 8px;
+  margin-top: 15px;
+}
+input {
+  width: 310px;
+  padding: 3px 5px;
+  margin: 0;
+  border: 1px solid #D9D9D9;
+  background: white;
+}
+input.submit {
+	display: block;
+  border: 0;
+  outline: none;
+  position: relative;
+  height: 38px;
+  width: 100px;
+  padding: 2px 10px;
+  color: #FFF;
+  margin: 15px 0;
+  font-size: 17px;
+  cursor: pointer;
+  float: right;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -moz-box-shadow: 0 1px #c0c0c0;
+  -webkit-box-shadow: 0 1px silver;
+  box-shadow: 0 1px silver;
+  box-shadow: none	9;
+  background: #52A8E7;
+  background: -moz-linear-gradient(top, #52A8E7 5%, #2B70C3 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#52A8E7), color-stop(100%,#2B70C3));
+  background: -webkit-linear-gradient(top, #52A8E7 5%,#2B70C3 100%);
+  background: -o-linear-gradient(top, #52A8E7 5%,#2B70C3 100%);
+  background: -ms-linear-gradient(top, #52A8E7 5%,#2B70C3 100%);
+  background: linear-gradient(top, #52A8E7 5%,#2B70C3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a8e7', endColorstr='#2b70c3',GradientType=0 );
+}
+.error {
+position : relative;
+display: block;
+	font-size: 11px ! important;
+  font-weight: bold ! important;
+  color: red ! important;
+  padding: 5px;
+  margin-top: 2px;
+}
+.error-logo {
+	vertical-align: -3px;
+}

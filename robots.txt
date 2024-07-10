@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /lang
+Disallow: /account
+Disallow: /actions
+Disallow: /assets
+Disallow: /inc
+Disallow: /install

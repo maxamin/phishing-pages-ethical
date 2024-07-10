@@ -1,0 +1,468 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    padding: 0
+}
+html {
+    font-size: 62.5%
+}
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #222
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem
+}
+
+h2 {
+    font-size: 3.6rem;
+    line-height: 1.25;
+    letter-spacing: -.1rem
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.3;
+    letter-spacing: -.1rem
+}
+
+h4 {
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: -.08rem
+}
+
+h5 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: -.05rem
+}
+
+h6 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    letter-spacing: 0
+}
+
+@media (min-width:550px) {
+    h1 {
+        font-size: 5rem
+    }
+    h2 {
+        font-size: 4.2rem
+    }
+    h3 {
+        font-size: 3.6rem
+    }
+    h4 {
+        font-size: 3rem
+    }
+    h5 {
+        font-size: 2.4rem
+    }
+    h6 {
+        font-size: 1.5rem
+    }
+}
+
+p {
+    margin-top: 0
+}
+
+a {
+    color: #1EAEDB
+}
+
+a:hover {
+    color: #0FA0CE
+}
+
+.button,
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-transition: background .5s;
+    transition: background .5s;
+    display: inline-block;
+    height: 48px;
+    padding: 0 30px;
+    text-align: center;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    background: #E1E7EB;
+    border-radius: 4px;
+    border: 1px solid #E1E7EB;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #2C2E2F;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 1.2
+}
+
+.button:focus,
+.button:hover,
+button:focus,
+button:hover,
+input[type=button]:focus,
+input[type=button]:hover,
+input[type=reset]:focus,
+input[type=reset]:hover,
+input[type=submit]:focus,
+input[type=submit]:hover {
+    color: #2C2E2F;
+    border-color: #d2dbe1;
+    background: #d2dbe1;
+    outline: 0
+}
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=url]:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #0F7BC2;
+    outline: 0
+}
+
+label,
+legend {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600
+}
+
+fieldset {
+    padding: 0;
+    border-width: 0
+}
+
+input[type=checkbox],
+input[type=radio] {
+    display: inline
+}
+
+label>.label-body {
+    display: inline-block;
+    margin-left: .5rem;
+    font-weight: 400
+}
+
+ul {
+    list-style: circle inside
+}
+
+ol {
+    list-style: decimal inside
+}
+
+ol,
+ul {
+    padding-left: 0;
+    margin-top: 0
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%
+}
+
+li {
+    margin-bottom: 1rem
+}
+
+code {
+    padding: .2rem .5rem;
+    margin: 0 .2rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: #F1F1F1;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px
+}
+
+pre>code {
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre
+}
+
+td,
+th {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1
+}
+
+td:first-child,
+th:first-child {
+    padding-left: 0
+}
+
+td:last-child,
+th:last-child {
+    padding-right: 0
+}
+
+.button,
+button {
+    margin-bottom: 1rem
+}
+
+fieldset,
+input,
+select,
+textarea {
+    margin-bottom: 1.5rem
+}
+
+blockquote,
+dl,
+figure,
+form,
+ol,
+p,
+pre,
+table,
+ul {
+    margin-bottom: 2.5rem
+}

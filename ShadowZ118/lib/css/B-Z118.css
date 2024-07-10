@@ -1,0 +1,122 @@
+.Xval666ideX1.valid {
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 98% 70%;
+    background-color: #fff;
+}
+.Xval666ideX1.error {
+    border: 1px solid #c72e2e;
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 98% 62%;
+    background-color: #fff;
+    color: #c72e2e;
+}
+#expdate.valid {
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 70%;
+    background-color: #fff;
+}
+#expdate.error {
+    border: 1px solid #c72e2e;
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 62%;
+    background-color: #fff;
+    color: #c72e2e;
+}
+#state.valid {
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 70%;
+    background-color: #fff;
+}
+#state.error {
+    border: 1px solid #c72e2e;
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 62%;
+    background-color: #fff;
+    color: #c72e2e;
+}
+#postalCode.valid {
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 70%;
+    background-color: #fff;
+}
+#postalCode.error {
+    border: 1px solid #c72e2e;
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 62%;
+    background-color: #fff;
+    color: #c72e2e;
+}
+#phoneNumber.valid {
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 70%;
+    background-color: #fff;
+}
+#phoneNumber.error {
+    border: 1px solid #c72e2e;
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 62%;
+    background-color: #fff;
+    color: #c72e2e;
+}
+.Xval666ideX1.error:hover,
+.Xval666ideX1.error:focus {
+    border: 1px solid #c72e2e;
+	transition: all 0.3s ease-out;
+}
+
+.xx_Z118xMARVEL .x_V-ForZ118 #cardnumber {
+	background-image: url('../../lib/img/sprites_cc_logos.png');
+	background-repeat: no-repeat;
+	background-position: 98.5% 81.7%;
+}
+.xx_Z118xMARVEL .x_V-ForZ118 #csc {
+	background-image: url('../../lib/img/vv.gif');
+	background-repeat: no-repeat;
+	background-position: 97% 45%;
+	margin-bottom: 8px;
+}
+::-webkit-input-placeholder {
+   color: #6c7378;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #6c7378;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #6c7378;  
+}
+
+:-ms-input-placeholder {  
+   color: #6c7378;  
+}
+.error::-webkit-input-placeholder {
+   color: #c72e2e;
+}
+
+.error:-moz-placeholder { /* Firefox 18- */
+   color: #c72e2e;  
+}
+
+.error::-moz-placeholder {  /* Firefox 19+ */
+   color: #c72e2e;  
+}
+
+.error:-ms-input-placeholder {  
+   color: #c72e2e;  
+}
+@media (max-width: 767px) {
+	.xx_Z118xMARVEL .x_V-ForZ118 #csc {
+	background-position: 99% 45%;
+    }
+}
